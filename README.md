@@ -19,7 +19,7 @@
 
 ![Custom badge](https://img.shields.io/badge/Repo-Started-brightgreen)   ![Custom badge](https://img.shields.io/badge/MAANG-Prepration-ff69b4)
 ![Custom badge](https://img.shields.io/badge/ARRAYS-Started-green)      ![Custom badge](https://img.shields.io/badge/LinkedList-NotYet-yellow)
-
+![Custom badge](https://img.shields.io/badge/YOGESH-OnDuty-ff69b4)
 
 
 
