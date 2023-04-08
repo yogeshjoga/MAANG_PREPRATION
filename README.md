@@ -22,7 +22,7 @@
 
 | Okay Easy to Handle | Need to Understand | I Don't know learn more |
 |:-------------------:|:------------------:|:-----------------------:|
-|         U+1F534            |                    |                         |
+|                    |                    |                         |
 
 
 # Total: 000
