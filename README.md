@@ -20,31 +20,8 @@
 ![Custom badge](https://img.shields.io/badge/Repo-Started-brightgreen)   ![Custom badge](https://img.shields.io/badge/MAANG-Prepration-ff69b4)
 ![Custom badge](https://img.shields.io/badge/ARRAYS-Started-green)      ![Custom badge](https://img.shields.io/badge/LinkedList-NotYet-yellow)
 
-#### Reactions 
-
-| Okay Easy to Handle | Need to Understand | I Don't know learn more |
-|:-------------------:|:------------------:|:-----------------------:|
-|                    |                    |                         |
 
 
-# Total: 000
-
-| Easy | Medium | Hard |
-|:----:|:------:|:----:|
-| 000  |  000   | 000  |
-
-
-
-
-
-
-|    Date     |                   Question                   |   Platform    | Solution  | Difficulty  | Reaction | Description |
-|:-----------:|:--------------------------------------------:|:-------------:|:---------:|:-----------:|:--------:|:-----------:|
-| 08/04/2023  |                                              |               |           |             |          |             |
-
-
-
-# hello
 
 
 
@@ -59,17 +36,32 @@
 
 ![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
 
-<p align="center">
-	<code><img src="https://profile-counter.glitch.me/{The-Complete-FAANG-Preparation}/count.svg" alt="Views Count" width="500px" height="80px" /></code>
-</p>
+<
 
 <p align="center">
     <img src="https://readme-jokes.vercel.app/api" width="450px" />
 </p>
 
-<div align="center">
+ <div align="center">
+
 
 # `🏆 Table of Contents 📋`
+
+| Okay Easy to Handle  |  Need to Understand   | I Don't know learn more  |
+|:--------------------:|:---------------------:|:------------------------:|
+|          😍          |          🥵           |            💔            |
+
+
+# ` 💝 Total: 0000 💝 `
+
+| Easy | Medium | Hard |
+|:----:|:------:|:----:|
+| 000  |  000   | 000  |
+
+
+|    Date     |                   Question                   |   Platform    | Solution  | Difficulty  | Reaction |  Description   |
+|:-----------:|:--------------------------------------------:|:-------------:|:---------:|:-----------:|:--------:|:--------------:|
+| 08/04/2023  |                                              |               |           |             |          |       😍       |
 
 
 
