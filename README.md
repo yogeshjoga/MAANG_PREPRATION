@@ -53,6 +53,9 @@
 </p>
 
 [![MAANG](https://github.com/yogeshjoga/MAANG_PREPRATION/Images/blob/master/FAANG.gif)](https://github.com/yogeshjoga/MAANG_PREPRATION#readme)
+
+![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
+
 <p align="center">
 	<code><img src="https://profile-counter.glitch.me/{The-Complete-FAANG-Preparation}/count.svg" alt="Views Count" width="500px" height="80px" /></code>
 </p>
