@@ -49,10 +49,13 @@
 
 
 <p align="center">
-    <a href="https://github.com/yogeshjoga/MAANG_PREPRATION#readme" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=2CFF00&size=75&pause=750&width=1280&height=80&lines=The+Complete+MAANG+Preparation"/> </a>
+    <a href="https://github.com/yogeshjoga/MAANG_PREPRATION#readme" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=2CFF00&size=65&pause=750&width=1280&height=80&lines=The+Complete+MAANG+Preparation"/> </a>
 </p>
 
-[![MAANG](https://github.com/yogeshjoga/MAANG_PREPRATION/Images/blob/master/FAANG.gif)](https://github.com/yogeshjoga/MAANG_PREPRATION#readme)
+
+
+
+![MAANGM](https://user-images.githubusercontent.com/36118169/230730170-3574e442-8073-45bf-a91a-4ed2f299b859.gif)
 
 ![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
 
