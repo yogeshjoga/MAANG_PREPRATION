@@ -24,6 +24,23 @@ public class Main {
         return prev;
     }
 
+        // Write a program to find the sum of the given series 1+2+3+ . . . . . .(N terms)
+        // example: input 5, 1+2+3+4+5 = 15;  1 = 1; input: 2, 1+2 = 3;
+    public static long seriesOfSum(int num){
+        long sum = 0;
+        // input 5: 1+2+3+4+5 = 15
+        for(int i=1; i<=num; i++){
+            sum += i;
+        }
+        return sum;
+    }
+
+    public static long seriesOfSum2(int num){
+        long sum = 0;
+        // second approach from MATHS
+        // input 5: 1+2+3+4+5 = 15
+        return sum * (sum+1)/2;
+    }
 
 
 
@@ -36,6 +53,13 @@ public class Main {
         int[] arr = {2,3,1,6,4,12,8,9,7,11};
         // here higest is 12 and second highest is 11, our required output is 11;
         int len = arr.length;
-        secondLarg(arr,len);
+    //    secondLarg(arr,len);
+
+        // Second sum------------------------
+        int num = 5;
+        seriesOfSum(num);
+        seriesOfSum2(num);
+
+
     }
 }
