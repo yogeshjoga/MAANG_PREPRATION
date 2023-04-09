@@ -52,11 +52,11 @@
 |          😍          |          🥵           |            💔            |
 
 
-# ` 💝 Total: 0000 💝 `
+# ` 💝 Total: 0001 💝 `
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 000  |  000   | 000  |
+| 001  |  000   | 000  |
 
 
 |    Date    |    Question     |    Platform     | Solution | Difficulty |  Reaction   |                           Description                           |
