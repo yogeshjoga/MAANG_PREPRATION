@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     /**
      *
@@ -43,6 +45,20 @@ public class Main {
     }
 
 
+    // problem three Find index postion
+    // Value equal to index value Ex: arr 12,32,3,45,67 --> the index position 3 is equal to index value
+    public  static ArrayList<Integer> indexValueEqualsToPostion(int[] arr, int len){
+        // lets create new ArrayList to return the values and simple to add the index positions
+        ArrayList<Integer> indexValue = new ArrayList<>();
+        for (int i=0; i<len; i++){
+            if(arr[i] == i+1){
+                indexValue.add(i+1);
+            }
+        }
+        return  indexValue;
+    }
+
+
 
 
     public static void main(String[] args) {
@@ -50,16 +66,18 @@ public class Main {
         System.out.println("Hello world!");
 
         // array un-sorted array
-        int[] arr = {2,3,1,6,4,12,8,9,7,11};
+        int[] arr = {2,2,1,6,4,12,8,9,7,11};
         // here higest is 12 and second highest is 11, our required output is 11;
         int len = arr.length;
     //    secondLarg(arr,len);
 
         // Second sum------------------------
         int num = 5;
-        seriesOfSum(num);
-        seriesOfSum2(num);
+       // seriesOfSum(num);
+     //   seriesOfSum2(num);
 
+        // third sum-----------------------------
+        indexValueEqualsToPostion( arr, len);
 
     }
 }
