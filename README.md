@@ -29,7 +29,9 @@
     <a href="https://github.com/yogeshjoga/MAANG_PREPRATION#readme" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=2CFF00&size=65&pause=750&width=1280&height=80&lines=The+Complete+MAANG+Preparation"/> </a>
 </p>
 
-
+<p align="center">
+    <a href="https://github.com/yogeshjoga/MAANG_PREPRATION#readme" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=&size=45&pause=750&width=1280&height=80&lines=Target+is+Per+Day+3+DSA+problems"/> </a>
+</p>
 
 
 ![MAANGM](https://user-images.githubusercontent.com/36118169/230730170-3574e442-8073-45bf-a91a-4ed2f299b859.gif)
@@ -58,7 +60,6 @@
 |   Networking    | Better to know CCNA | 
 |      Cloud      |    AWS/Azure/GCP    | 
 |  Technologies   |    DevOps tools     | 
-
 
 
  <div align="center">
