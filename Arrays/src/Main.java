@@ -59,6 +59,14 @@ public class Main {
     }
 
 
+    // problem four sum of array elements
+    public  static  int sumOfArrayElements(int[] arr, int len){
+        int sum =0;
+        for(int i=0; i<len; i++){
+            sum+=arr[i];
+        }
+        return  sum;
+    }
 
 
     public static void main(String[] args) {
@@ -66,7 +74,7 @@ public class Main {
         System.out.println("Hello world!");
 
         // array un-sorted array
-        int[] arr = {2,2,1,6,4,12,8,9,7,11};
+        int[] arr = {2,2,1};
         // here higest is 12 and second highest is 11, our required output is 11;
         int len = arr.length;
     //    secondLarg(arr,len);
@@ -77,7 +85,10 @@ public class Main {
      //   seriesOfSum2(num);
 
         // third sum-----------------------------
-        indexValueEqualsToPostion( arr, len);
+     //   indexValueEqualsToPostion( arr, len);
+
+        // four sum--------
+        sumOfArrayElements( arr,  len);
 
     }
 }

@@ -55,53 +55,53 @@
 |        HacR         |     HackerRank     |        Exploring        |
 
 
-# ` 💝 Total: 0003 💝 `
+# ` 💝 Total: 0004 💝 `
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 003  |  000   | 000  |
+| 004  |  000   | 000  |
 
 
-|    Date    |                       Question                        | Platform |            Solution             | Difficulty | Reaction  |                           Description                           |
-|:----------:|:-----------------------------------------------------:|:--------:|:-------------------------------:|:----------:|:---------:|:---------------------------------------------------------------:|
-| 08/04/2023 |                                                       |          |                                 |            |    😍     |               Ntg solved today just setup the env               |
-| 09/04/2023 |        [Array 2nd large](https://rb.gy/1ijnm)         |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |    😍     | with out sort the array need to solve this problem little hard! |           
-| 10/04/2023 |         [Sum of Series](https://rb.gy/qssid)          |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |    😍     |  Need to know about MATH formula to solve lets understand math  |   
-| 10/04/2023 |   [Value equal to index value](https://rb.gy/3dkql)   |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |    😍     |                Understand concept and dry it...                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |   GFG    | [Solution](https://rb.gy/8fab9) |   School   |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
-|            |                                                       |          |                                 |            |           |                                                                 |   
+|    Date    |                      Question                      | Platform |            Solution             | Difficulty |  Reaction  |                           Description                           |
+|:----------:|:--------------------------------------------------:|:--------:|:-------------------------------:|:----------:|:----------:|:---------------------------------------------------------------:|
+| 08/04/2023 |                                                    |          |                                 |            |     😍     |               Ntg solved today just setup the env               |
+| 09/04/2023 |       [Array 2nd large](https://rb.gy/1ijnm)       |  01 GFG  | [Solution](https://rb.gy/8fab9) |   School   |     😍     | with out sort the array need to solve this problem little hard! |           
+| 10/04/2023 |        [Sum of Series](https://rb.gy/qssid)        |  02 GFG  | [Solution](https://rb.gy/8fab9) |   School   |     😍     |  Need to know about MATH formula to solve lets understand math  |   
+| 10/04/2023 | [Value equal to index value](https://rb.gy/3dkql)  |  03 GFG  | [Solution](https://rb.gy/8fab9) |   School   |     😍     |                Understand concept and dry it...                 |   
+| 10/04/2023 |    [Sum of Array Elements](https://rb.gy/cwkkk)    |  04 GFG  | [Solution](https://rb.gy/8fab9) |   School   |     😍     |               sum of array elements -easy problem               |
+|            |                                                    |  05 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  06 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  07 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
+|            |                                                    |          |                                 |            |            |                                                                 |   
 
 
 
