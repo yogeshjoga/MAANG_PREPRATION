@@ -43,7 +43,7 @@
 </p>
 
 
-# `🏆 Syllabus 📋`
+# `🏆 Syllabus for SDE-1 Role 📋`
 
 
 | TOOL's and Tech |     RECOMMENDED     | 
