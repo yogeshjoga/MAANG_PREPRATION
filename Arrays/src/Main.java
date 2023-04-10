@@ -1,3 +1,4 @@
+import java.net.StandardSocketOptions;
 import java.util.ArrayList;
 
 public class Main {
@@ -68,6 +69,15 @@ public class Main {
         return  sum;
     }
 
+    // fifth problem  Print alternate elements of an array
+
+    public static void alternateElements(int[] arr, int n){
+        for(int i=0; i<n; i+=2){
+            System.out.print(arr[i]+" ");
+        }
+    }
+
+
 
     public static void main(String[] args) {
 
@@ -89,6 +99,9 @@ public class Main {
 
         // four sum--------
         sumOfArrayElements( arr,  len);
+
+        // fifth problem---
+        alternateElements(arr,len);
 
     }
 }
