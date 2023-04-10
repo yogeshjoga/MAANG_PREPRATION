@@ -42,8 +42,26 @@
     <img src="https://readme-jokes.vercel.app/api" width="450px" />
 </p>
 
- <div align="center">
 
+# `🏆 Syllabus 📋`
+
+
+| TOOL's and Tech |     RECOMMENDED     | 
+|:---------------:|:-------------------:|
+| Select OOP lang |        JAVA         |  
+|       DSA       |      LeetCode       |  
+|  System Design  |       LLD/HLD       |  
+|    FramWorks    |       Spring        | 
+|      RDBMS      |    MySql/MongoDB    |  
+| Scripting lang  |     BASH/ Linux     | 
+|       OS        |  Windows/Linux/Mac  | 
+|   Networking    | Better to know CCNA | 
+|      Cloud      |    AWS/Azure/GCP    | 
+|  Technologies   |    DevOps tools     | 
+
+
+
+ <div align="center">
 
 # `🏆 Table of Contents 📋`
 
