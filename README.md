@@ -72,11 +72,11 @@
 |        HacR         |     HackerRank     |        Exploring        |
 
 
-# ` 💝 Total: 0008 💝 `
+# ` 💝 Total: 0009 💝 `
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 008  |  000   | 000  |
+| 009  |  000   | 000  |
 
 
 |    Date    |                      Question                       | Platform |            Solution             | Difficulty |   Reaction    |                           Description                           |
