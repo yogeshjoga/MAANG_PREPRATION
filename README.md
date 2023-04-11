@@ -89,7 +89,7 @@
 | 10/04/2023 |  [Print alternate elements](https://rb.gy/w6gzj)  |  05 GFG  | [Solution](https://rb.gy/8fab9) |   School   |      😍      |            very easy problem no need, for loop trick            |   
 | 11/04/2023 |     [Palindromic Array](https://rb.gy/1t81r)      |  06 GFG  | [Solution](https://rb.gy/8fab9) |   School   |      🥵      |               make sure about All String classes                |   
 | 11/04/2023 |    [Arrays Sum of array](https://rb.gy/nequa)     |  07 GFG  | [Solution](https://rb.gy/8fab9) |   School   |      😍      |                  good Question easy to handle                   |   
-| 11/04/2023 |  [Count of smaller elements](https://rb.gy/286dh  |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |      🥵      |          little confused in operators <+,<-,<+... okay          |   
+| 11/04/2023 | [Count of smaller elements](https://rb.gy/286dh)  |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |      🥵      |          little confused in operators <+,<-,<+... okay          |   
 | 11/04/2023 |                                                   |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |              |                                                                 |   
 |            |                                                   |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |              |                                                                 |   
 |            |                                                   |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |              |                                                                 |   
