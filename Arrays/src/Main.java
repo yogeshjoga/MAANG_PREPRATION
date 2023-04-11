@@ -110,6 +110,19 @@ public class Main {
         return sum;
     }
 
+
+    // Count of smaller elements
+    public static long smallerElement(long[] arr, long len, long key){
+        int count = 0;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i] <= key) {
+                count = i + 1;
+            }
+        }
+        return  count;
+    }
+
+
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
@@ -141,5 +154,11 @@ public class Main {
         long[] arr1 ={1,3,4,5,6,7,20};
         int len1 = 7;
         sumOfArray(arr1,len1);
+
+        // 8th problem
+        long [] arr2 ={ 1,2,3,4,5,6,8,9,10,11};
+        long len2 = 10;
+        long key = 9;
+        smallerElement(arr2,len2, key);
     }
 }
