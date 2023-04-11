@@ -136,6 +136,14 @@ public class Main {
         return sum;
     }
 
+    // 10th problem
+    public static void arrayElementsPrint(int[] arr, int len){
+        // im using for each loop
+        for (int pr: arr){
+            System.out.println(pr+" ");
+        }
+    }
+
 
 
 
@@ -183,6 +191,8 @@ public class Main {
         //9th problem sum of array elements
         sumOfArrays(arr, len);
 
+        // 10th problem
+        arrayElementsPrint(arr, len);
 
     }
 }
