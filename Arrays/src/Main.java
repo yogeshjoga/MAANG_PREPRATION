@@ -144,6 +144,22 @@ public class Main {
         }
     }
 
+    // 11th Swap kth elements
+    /**
+     * Input:
+     *     N = 8, K = 3
+     *     Arr[] = {1, 2, 3, 4, 5, 6, 7, 8}
+     *     Output: 1 2 6 4 5 3 7 8
+     *     Explanation: Kth element from beginning is
+     *    3 and from end is 6.
+     */
+    public  static  void swapKthElement(int[] arr, int len, int key){
+        int temp = arr[key-1];
+        arr[key-1] = arr[len - key];
+        arr[len - key] = temp;
+
+    }
+
 
 
 
@@ -193,6 +209,10 @@ public class Main {
 
         // 10th problem
         arrayElementsPrint(arr, len);
+
+        // 11th problem
+        int key1= 3;
+        swapKthElement(arr, len, key1);
 
     }
 }

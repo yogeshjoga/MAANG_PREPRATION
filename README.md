@@ -72,11 +72,11 @@
 |        HacR         |     HackerRank     |        Exploring        |
 
 
-# ` 💝 Total: 0010 💝 `
+# ` 💝 Total: 0011 💝 `
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 010  |  000   | 000  |
+| 011  |  000   | 000  |
 
 
 |    Date     |                     Question                      | Platform |            Solution             | Difficulty | Reaction |                           Description                           |
@@ -92,7 +92,7 @@
 | 11/04/2023  | [Count of smaller elements](https://rb.gy/286dh)  |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    🥵    |          little confused in operators <+,<-,<+... okay          |   
 | 11/04/2023  |        [Sum of Array](https://rb.gy/wr7dz)        |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                     sum of array super easy                     |   
 | 11/04/2023  |    [Print array elements](https://rb.gy/q90sq)    |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                 using for each loop super easy                  |   
-| 11/04/2023  |                                                   |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |          |                                                                 |   
+| 11/04/2023  |     [Swap kth elements](https://rb.gy/70fqy)      |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    🥵    |                little confused but easy problem                 |   
 |             |                                                   |          |                                 |            |          |                                                                 |   
 |             |                                                   |          |                                 |            |          |                                                                 |   
 |             |                                                   |          |                                 |            |          |                                                                 |   
