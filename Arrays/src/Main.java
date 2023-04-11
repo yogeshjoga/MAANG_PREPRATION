@@ -77,31 +77,69 @@ public class Main {
         }
     }
 
+    //Palindromic Array
 
+    /**
+     * palindromic array we need to check the every array number is palindrome or not
+     * if we will go old approach it may takes more time and space
+     * we will go String classes, we have string function .reverse() this fun will reverse the object
+     * lets do it
+     * @param args
+     */
+
+    public static  int palindromicArray(int[] arr, int len){
+        StringBuilder stringBuilder = new StringBuilder();
+        int rev=0;
+        for(int i=0; i<len; i++){
+            stringBuilder.append(arr[i]).reverse();
+            rev = Integer.parseInt(stringBuilder.toString());
+            if(arr[i] != rev){
+                return 0;
+            }
+            stringBuilder.setLength(0);
+        }
+        return 1;
+    }
+
+    // Arrays (Sum of array)
+    public  static  long sumOfArray(long[] arr, int len){
+        long sum = 0;
+        for(int i=0; i<len; i++){
+            sum+=arr[i];
+        }
+        return sum;
+    }
 
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
 
         // array un-sorted array
-        int[] arr = {2,2,1};
+        int[] arr = {121,222,111};
         // here higest is 12 and second highest is 11, our required output is 11;
         int len = arr.length;
-    //    secondLarg(arr,len);
+        secondLarg(arr,len);
 
         // Second sum------------------------
         int num = 5;
-       // seriesOfSum(num);
-     //   seriesOfSum2(num);
+        seriesOfSum(num);
+        seriesOfSum2(num);
 
         // third sum-----------------------------
-     //   indexValueEqualsToPostion( arr, len);
+        indexValueEqualsToPostion( arr, len);
 
         // four sum--------
         sumOfArrayElements( arr,  len);
 
         // fifth problem---
-        alternateElements(arr,len);
+       alternateElements(arr,len);
 
+        // sixth problem ---------------
+        palindromicArray(arr,len);
+
+        // seventh problem
+        long[] arr1 ={1,3,4,5,6,7,20};
+        int len1 = 7;
+        sumOfArray(arr1,len1);
     }
 }
