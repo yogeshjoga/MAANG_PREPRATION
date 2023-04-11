@@ -9,6 +9,11 @@ public class Main {
      *  Arrays School level problems
      *  started 09/04/2023
      *  lets start daily one problem
+     *
+     *  this class contains only School level problems based on Arrays concept
+     *  from Geeks for Geeks
+     *  Arrays, School level problems
+     *  ordering from GFG..
      */
 
     // problem is Second-Largest number in array
@@ -122,6 +127,20 @@ public class Main {
         return  count;
     }
 
+    // 9th sum of array
+    public  static int sumOfArrays(int[] arr, int len){
+        int sum =0;
+        for(int i=0; i<len; i++){
+            sum+=arr[i];
+        }
+        return sum;
+    }
+
+
+
+
+
+    // MAIN method started
 
     public static void main(String[] args) {
 
@@ -160,5 +179,10 @@ public class Main {
         long len2 = 10;
         long key = 9;
         smallerElement(arr2,len2, key);
+
+        //9th problem sum of array elements
+        sumOfArrays(arr, len);
+
+
     }
 }
