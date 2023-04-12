@@ -1,5 +1,6 @@
 import java.net.StandardSocketOptions;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     /**
@@ -172,7 +173,56 @@ public class Main {
         return temp;
     }
 
+    // 13th problem Find Index
+    public static int[] findIndex(int[] arr, int len, int key){
+        int[] findInd = new int[len];
+        int temp =0;
+        for(int i=0; i<len; i++){
+            if(arr[i]==key){
+                findInd[temp] =i;
+                temp++;
+            }
+        }
+        for (int arr22212: findInd) {
+            System.out.println(arr22212);
+        }
 
+        return findInd;
+    }
+
+    // this is right solution
+   public static int[] findIndex2(int a[], int N, int key) {
+        int[] start ={-1,-1};
+        int flag = 0;
+        for(int i=0;i<N;i++){
+            if(a[i]==key && flag == 0 ){
+                start[0] = i;
+                flag = 1;
+            }
+            if(a[i]==key){
+                start[1] = i;
+            }
+        }
+        return start;
+    }
+
+    // Is perfect array
+    public static boolean isPerfectArray(int[] arr, int len){
+        int[] rev = new int[len];
+        int temp =0;
+        for (int i=len-1; i>=0; i--){
+
+                rev[temp] = arr[i];
+                temp++;
+            }
+       // if(rev == arr){
+        if(Arrays.equals(rev, arr)){
+            System.out.println("ture");
+            return true;
+        }
+        System.out.println("false");
+        return false;
+    }
 
 
 
@@ -232,6 +282,17 @@ public class Main {
         String[] names ={ "yogi", "hello", "deart", "yogesh Billa", "i love you siri"};
         int lent = 5;
         displayLongestName(names, lent);
+
+        ///
+        int[] arr22 ={1,10,122,122,3232,34,53,534,5343,34,645,4645,4545,6454,4545,6454,56,10};
+        int len22 = arr22.length;
+        int key2 = 10;
+        findIndex( arr22,  len22,  key2);
+
+
+        int[] perfectArr = {1,2,3,2,1};
+        int arrLen = 5;
+        isPerfectArray(perfectArr, arrLen);
 
 
     }
