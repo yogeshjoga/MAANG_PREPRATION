@@ -79,46 +79,46 @@
 | 011  |  000   | 000  |
 
 
-|    Date     |                     Question                      | Platform |            Solution             | Difficulty | Reaction |                           Description                           |
-|:-----------:|:-------------------------------------------------:|:--------:|:-------------------------------:|:----------:|:--------:|:---------------------------------------------------------------:|
-| 08/04/2023  |                         -                         |    -     |                -                |     -      |    😍    |               Ntg solved today just setup the env               |
-| 09/04/2023  |      [Array 2nd large](https://rb.gy/1ijnm)       |  01 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    | with out sort the array need to solve this problem little hard! |           
-| 10/04/2023  |       [Sum of Series](https://rb.gy/qssid)        |  02 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |  Need to know about MATH formula to solve lets understand math  |   
-| 10/04/2023  | [Value equal to index value](https://rb.gy/3dkql) |  03 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                Understand concept and dry it...                 |   
-| 10/04/2023  |   [Sum of Array Elements](https://rb.gy/cwkkk)    |  04 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |               sum of array elements -easy problem               |
-| 10/04/2023  |  [Print alternate elements](https://rb.gy/w6gzj)  |  05 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |            very easy problem no need, for loop trick            |   
-| 11/04/2023  |     [Palindromic Array](https://rb.gy/1t81r)      |  06 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    🥵    |               make sure about All String classes                |   
-| 11/04/2023  |    [Arrays Sum of array](https://rb.gy/nequa)     |  07 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                  good Question easy to handle                   |   
-| 11/04/2023  | [Count of smaller elements](https://rb.gy/286dh)  |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    🥵    |          little confused in operators <+,<-,<+... okay          |   
-| 11/04/2023  |        [Sum of Array](https://rb.gy/wr7dz)        |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                     sum of array super easy                     |   
-| 11/04/2023  |    [Print array elements](https://rb.gy/q90sq)    |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😍    |                 using for each loop super easy                  |   
-| 11/04/2023  |     [Swap kth elements](https://rb.gy/70fqy)      |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    🥵    |                little confused but easy problem                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
-|             |                                                   |          |                                 |            |          |                                                                 |   
+|    Date    |                     Question                      | Platform |             Solution             | Difficulty | Reaction |                           Description                           |
+|:----------:|:-------------------------------------------------:|:--------:|:--------------------------------:|:----------:|:--------:|:---------------------------------------------------------------:|
+| 08/04/2023 |                         -                         |    -     |                -                 |     -      |    😍    |               Ntg solved today just setup the env               |
+| 09/04/2023 |      [Array 2nd large](https://rb.gy/1ijnm)       |  01 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    | with out sort the array need to solve this problem little hard! |           
+| 10/04/2023 |       [Sum of Series](https://rb.gy/qssid)        |  02 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |  Need to know about MATH formula to solve lets understand math  |   
+| 10/04/2023 | [Value equal to index value](https://rb.gy/3dkql) |  03 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |                Understand concept and dry it...                 |   
+| 10/04/2023 |   [Sum of Array Elements](https://rb.gy/cwkkk)    |  04 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |               sum of array elements -easy problem               |
+| 10/04/2023 |  [Print alternate elements](https://rb.gy/w6gzj)  |  05 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |            very easy problem no need, for loop trick            |   
+| 11/04/2023 |     [Palindromic Array](https://rb.gy/1t81r)      |  06 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    🥵    |               make sure about All String classes                |   
+| 11/04/2023 |    [Arrays Sum of array](https://rb.gy/nequa)     |  07 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |                  good Question easy to handle                   |   
+| 11/04/2023 | [Count of smaller elements](https://rb.gy/286dh)  |  08 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    🥵    |          little confused in operators <+,<-,<+... okay          |   
+| 11/04/2023 |        [Sum of Array](https://rb.gy/wr7dz)        |  09 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |                     sum of array super easy                     |   
+| 11/04/2023 |    [Print array elements](https://rb.gy/q90sq)    |  10 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😍    |                 using for each loop super easy                  |   
+| 11/04/2023 |     [Swap kth elements](https://rb.gy/70fqy)      |  11 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    🥵    |                little confused but easy problem                 |   
+| 12/04/2023 |    [Display longest name](https://rb.gy/s30df)    |  12 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 12/04/2023 |                       []()                        |  13 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 12/04/2023 |                       []()                        |  14 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 12/04/2023 |                       []()                        |  15 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 12/04/2023 |                       []()                        |  16 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                       []()                        |  17 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                       []()                        |  18 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                                                   |  19 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                                                   |  20 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                                                   |  21 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                                                   |  22 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+|            |                                                   |  23 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  24 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  25 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  26 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  27 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  28 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |  29 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
+|            |                                                   |          |                                  |            |          |                                                                 |   
 
 
 

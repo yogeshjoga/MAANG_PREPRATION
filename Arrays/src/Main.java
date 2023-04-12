@@ -89,7 +89,7 @@ public class Main {
      * if we will go old approach it may takes more time and space
      * we will go String classes, we have string function .reverse() this fun will reverse the object
      * lets do it
-     * @param args
+     *
      */
 
     public static  int palindromicArray(int[] arr, int len){
@@ -160,6 +160,20 @@ public class Main {
 
     }
 
+    // 12 th problem Display longest name
+    public static String displayLongestName(String[] names, int len){
+        String temp = names[0];
+        for(int i=0; i<len; i++){
+            if(names[i].length() >= temp.length()){
+                temp = names[i];
+            }
+        }
+       // System.out.println(temp);
+        return temp;
+    }
+
+
+
 
 
 
@@ -213,6 +227,12 @@ public class Main {
         // 11th problem
         int key1= 3;
         swapKthElement(arr, len, key1);
+
+        //12th problem the largest String name
+        String[] names ={ "yogi", "hello", "deart", "yogesh Billa", "i love you siri"};
+        int lent = 5;
+        displayLongestName(names, lent);
+
 
     }
 }
