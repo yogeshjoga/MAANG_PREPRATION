@@ -257,6 +257,56 @@ public class Main {
         return great;
      }
 
+     //Smaller and Larger
+    public static int[] smallerAndlarger(int[] arr, int len, int key){
+         int f = 0;
+         int l = 0;
+         for(int i=0; i<len; i++){
+             if(arr[i] >= key ){
+                 f++;
+             }
+             if(arr[i] <= key){
+                 l++;
+             }
+         }
+         return new int[] {f,l};
+    }
+    // Java Arrays | Set 1
+   /* For a given array of price of items,you have to calculate the average of all prices upto 2 decimal places.
+    Note: Sum is printed automatically, you only need to calculate and return the average
+
+
+
+    Example 1:
+
+    Input:
+            5
+            1 2 3 4 5
+    Output:
+            15 3.00
+    Explanation:
+    Sum of the array is 15, hence
+    average is 15/5=3.00.
+
+    Example 2:
+
+    Input:
+            9
+            2 55 85 656 52 554 545 5 2
+    Output:
+            1956 217.33
+    Explanation:
+    Sum of the array is 1956, hence
+    average is 1956/9= 217.33.*/
+
+    public static String sumArrDiv(int[] arr, int len){
+        float temp =0;
+        for(int i=0; i<len; i++){
+            temp+= arr[i];
+        }
+        return String.format("%.2f",temp/len);
+    }
+
 
 
 
@@ -333,6 +383,8 @@ public class Main {
         long grat1 = arra2.length;
         twoGraterElements(arra2, grat1);
 
+        // array set
+        sumArrDiv(arr, len);
 
     }
 }
