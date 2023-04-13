@@ -224,6 +224,39 @@ public class Main {
         return false;
     }
 
+   // At least two greater elements
+  /* Given an array of N distinct elements, the task is to find all elements in array except two greatest elements in sorted order.
+
+
+    Example 1:
+
+    Input :
+    a[] = {2, 8, 7, 1, 5}
+    Output :
+            1 2 5
+    Explanation :
+    The output three elements have two or
+    more greater elements.
+    --------------------
+    Example 2:
+    Input :
+    a[] = {7, -2, 3, 4, 9, -1}
+    Output :
+       -2 -1 3 4*/
+
+     public static long[] twoGraterElements(long[] arr, long len){
+        long[] great = new long[arr.length-2];
+        Arrays.sort(arr);
+        for(int i=0; i<len-2; i++){
+            great[i] = arr[i];
+        }
+         System.out.println("Greater elements are printed ");
+        for(long pr : great){
+            System.out.println(pr);
+        }
+        return great;
+     }
+
 
 
 
@@ -293,6 +326,12 @@ public class Main {
         int[] perfectArr = {1,2,3,2,1};
         int arrLen = 5;
         isPerfectArray(perfectArr, arrLen);
+
+
+        // greatest elements
+        long[] arra2 = {1,5,6,9,0,4,3,10};
+        long grat1 = arra2.length;
+        twoGraterElements(arra2, grat1);
 
 
     }
