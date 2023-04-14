@@ -100,7 +100,7 @@
 | 13/04/2023 |      [Smaller and Larger](https://rb.gy/53jig)       |  17 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💚    |                      lilttle easy prolbem                       |   
 | 13/04/2023 |       [Java Arrays Set 1](https://rb.gy/lw1nx)       |  18 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💚    |                      string formate using                       |   
 | 14/04/2023 |    [Print the left element](https://rb.gy/htc2h)     |  19 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💚    |              very simple time complexity is matter              |   
-| 14/04/2023 |                                                      |  20 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 14/04/2023 |      [Fascinating Number](https://rb.gy/q3xkw)       |  20 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💔    |            little hard to me  need to understand it             |   
 | 14/04/2023 |                                                      |  21 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
 | 14/04/2023 |                                                      |  22 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
 |            |                                                      |  23 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
