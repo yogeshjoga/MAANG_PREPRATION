@@ -72,11 +72,11 @@
 |        HacR         |     HackerRank     |        Exploring        |
 
 
-# ` 💝 Total: 0018 💝 `
+# ` 💝 Total: 0021 💝 `
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 018  |  000   | 000  |
+| 021  |  000   | 000  |
 
 
 |    Date    |                       Question                       | Platform |             Solution             | Difficulty | Reaction |                           Description                           |
@@ -101,8 +101,8 @@
 | 13/04/2023 |       [Java Arrays Set 1](https://rb.gy/lw1nx)       |  18 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💚    |                      string formate using                       |   
 | 14/04/2023 |    [Print the left element](https://rb.gy/htc2h)     |  19 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💚    |              very simple time complexity is matter              |   
 | 14/04/2023 |      [Fascinating Number](https://rb.gy/q3xkw)       |  20 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    💔    |            little hard to me  need to understand it             |   
-| 14/04/2023 |                                                      |  21 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
-| 14/04/2023 |                                                      |  22 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
+| 14/04/2023 |      [Average in a stream](https://rb.gy/9bdub)      |  21 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |    😡    |              one more time need to do this problem              |   
+| 15/04/2023 |                                                      |  22 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |          |                                                                 |   
 |            |                                                      |  23 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
 |            |                                                      |  24 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
 |            |                                                      |  25 GFG  | [Solution](https://rb.gy/8fab9)  |            |          |                                                                 |   
