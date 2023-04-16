@@ -79,45 +79,45 @@
 | 022  |  000   | 000  |
 
 
-|    Date    |                       Question                       | Platform |            Solution             | Difficulty | Reaction |                           Description                           |
-|:----------:|:----------------------------------------------------:|:--------:|:-------------------------------:|:----------:|:--------:|:---------------------------------------------------------------:|
-| 08/04/2023 |                          -                           |    -     |                -                |     -      |    💚    |               Ntg solved today just setup the env               |
-| 09/04/2023 |        [Array 2nd large](https://rb.gy/1ijnm)        |  01 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    | with out sort the array need to solve this problem little hard! |           
-| 10/04/2023 |         [Sum of Series](https://rb.gy/qssid)         |  02 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |  Need to know about MATH formula to solve lets understand math  |   
-| 10/04/2023 |  [Value equal to index value](https://rb.gy/3dkql)   |  03 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                Understand concept and dry it...                 |   
-| 10/04/2023 |     [Sum of Array Elements](https://rb.gy/cwkkk)     |  04 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |               sum of array elements -easy problem               |
-| 10/04/2023 |   [Print alternate elements](https://rb.gy/w6gzj)    |  05 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |            very easy problem no need, for loop trick            |   
-| 11/04/2023 |       [Palindromic Array](https://rb.gy/1t81r)       |  06 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |               make sure about All String classes                |   
-| 11/04/2023 |      [Arrays Sum of array](https://rb.gy/nequa)      |  07 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                  good Question easy to handle                   |   
-| 11/04/2023 |   [Count of smaller elements](https://rb.gy/286dh)   |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |          little confused in operators <+,<-,<+... okay          |   
-| 11/04/2023 |         [Sum of Array](https://rb.gy/wr7dz)          |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                     sum of array super easy                     |   
-| 11/04/2023 |     [Print array elements](https://rb.gy/q90sq)      |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                 using for each loop super easy                  |   
-| 11/04/2023 |       [Swap kth elements](https://rb.gy/70fqy)       |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |                little confused but easy problem                 |   
-| 12/04/2023 |     [Display longest name](https://rb.gy/s30df)      |  12 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |       super easy problem, required string class functions       |   
-| 12/04/2023 |          [Find Index](https://rb.gy/sng8c)           |  14 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |                  little confused this problem                   |   
-| 12/04/2023 |        [Perfect Arrays](https://rb.gy/5unuj)         |  15 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |          super easy use build in Arrays.equals method           |   
-| 13/04/2023 | [At least two greater elements](https://rb.gy/j3fis) |  16 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |     confused question not understood solution is super easy     |   
-| 13/04/2023 |      [Smaller and Larger](https://rb.gy/53jig)       |  17 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                      lilttle easy prolbem                       |   
-| 13/04/2023 |       [Java Arrays Set 1](https://rb.gy/lw1nx)       |  18 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                      string formate using                       |   
-| 14/04/2023 |    [Print the left element](https://rb.gy/htc2h)     |  19 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |              very simple time complexity is matter              |   
-| 14/04/2023 |      [Fascinating Number](https://rb.gy/q3xkw)       |  20 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💔    |            little hard to me  need to understand it             |   
-| 14/04/2023 |      [Average in a stream](https://rb.gy/9bdub)      |  21 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |              one more time need to do this problem              |   
-| 15/04/2023 |      [Compete the skills](https://rb.gy/zi43p)       |  22 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |             Arrays School level problems completed              |   
-|            |                                                      |    23    |                                 |            |          |                                                                 |   
-|            |                                                      |    24    |                                 |            |          |                                                                 |   
-|            |                                                      |    25    |                                 |            |          |                                                                 |   
-|            |                                                      |    26    |                                 |            |          |                                                                 |   
-|            |                                                      |    27    |                                 |            |          |                                                                 |   
-|            |                                                      |    28    |                                 |            |          |                                                                 |   
-|            |                                                      |    29    |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
-|            |                                                      |          |                                 |            |          |                                                                 |   
+|        Date         |                       Question                       | Platform |            Solution             | Difficulty | Reaction |                           Description                           |
+|:-------------------:|:----------------------------------------------------:|:--------:|:-------------------------------:|:----------:|:--------:|:---------------------------------------------------------------:|
+| 08/04/2023 -Day 001 |                          -                           |    -     |                -                |     -      |    💚    |               Ntg solved today just setup the env               |
+| 09/04/2023 -Day 002 |        [Array 2nd large](https://rb.gy/1ijnm)        |  01 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    | with out sort the array need to solve this problem little hard! |           
+| 10/04/2023 -Day 003 |         [Sum of Series](https://rb.gy/qssid)         |  02 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |  Need to know about MATH formula to solve lets understand math  |   
+| 10/04/2023 -Day 003 |  [Value equal to index value](https://rb.gy/3dkql)   |  03 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                Understand concept and dry it...                 |   
+| 10/04/2023 -Day 003 |     [Sum of Array Elements](https://rb.gy/cwkkk)     |  04 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |               sum of array elements -easy problem               |
+| 10/04/2023 -Day 003 |   [Print alternate elements](https://rb.gy/w6gzj)    |  05 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |            very easy problem no need, for loop trick            |   
+| 11/04/2023 -Day 004 |       [Palindromic Array](https://rb.gy/1t81r)       |  06 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |               make sure about All String classes                |   
+| 11/04/2023 -Day 004 |      [Arrays Sum of array](https://rb.gy/nequa)      |  07 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                  good Question easy to handle                   |   
+| 11/04/2023 -Day 004 |   [Count of smaller elements](https://rb.gy/286dh)   |  08 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |          little confused in operators <+,<-,<+... okay          |   
+| 11/04/2023 -Day 004 |         [Sum of Array](https://rb.gy/wr7dz)          |  09 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                     sum of array super easy                     |   
+| 11/04/2023 -Day 004 |     [Print array elements](https://rb.gy/q90sq)      |  10 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                 using for each loop super easy                  |   
+| 11/04/2023 -Day 004 |       [Swap kth elements](https://rb.gy/70fqy)       |  11 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |                little confused but easy problem                 |   
+| 12/04/2023 -Day 005 |     [Display longest name](https://rb.gy/s30df)      |  12 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |       super easy problem, required string class functions       |   
+| 12/04/2023 -Day 005 |          [Find Index](https://rb.gy/sng8c)           |  14 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |                  little confused this problem                   |   
+| 12/04/2023 -Day 005 |        [Perfect Arrays](https://rb.gy/5unuj)         |  15 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |          super easy use build in Arrays.equals method           |   
+| 13/04/2023 -Day 006 | [At least two greater elements](https://rb.gy/j3fis) |  16 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |     confused question not understood solution is super easy     |   
+| 13/04/2023 -Day 006 |      [Smaller and Larger](https://rb.gy/53jig)       |  17 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                      lilttle easy prolbem                       |   
+| 13/04/2023 -Day 006 |       [Java Arrays Set 1](https://rb.gy/lw1nx)       |  18 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |                      string formate using                       |   
+| 14/04/2023 -Day 007 |    [Print the left element](https://rb.gy/htc2h)     |  19 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |              very simple time complexity is matter              |   
+| 14/04/2023 -Day 007 |      [Fascinating Number](https://rb.gy/q3xkw)       |  20 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💔    |            little hard to me  need to understand it             |   
+| 14/04/2023 -Day 007 |      [Average in a stream](https://rb.gy/9bdub)      |  21 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |              one more time need to do this problem              |   
+| 15/04/2023 -Day 008 |      [Compete the skills](https://rb.gy/zi43p)       |  22 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |             Arrays School level problems completed              |   
+|                     |                                                      |    23    |                                 |            |          |                                                                 |   
+|                     |                                                      |    24    |                                 |            |          |                                                                 |   
+|                     |                                                      |    25    |                                 |            |          |                                                                 |   
+|                     |                                                      |    26    |                                 |            |          |                                                                 |   
+|                     |                                                      |    27    |                                 |            |          |                                                                 |   
+|                     |                                                      |    28    |                                 |            |          |                                                                 |   
+|                     |                                                      |    29    |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
+|                     |                                                      |          |                                 |            |          |                                                                 |   
 
 
 
