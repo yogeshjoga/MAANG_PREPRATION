@@ -103,7 +103,7 @@
 | 14/04/2023 -Day 007 |      [Fascinating Number](https://rb.gy/q3xkw)       |  20 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💔    |            little hard to me  need to understand it             |   
 | 14/04/2023 -Day 007 |      [Average in a stream](https://rb.gy/9bdub)      |  21 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    😡    |              one more time need to do this problem              |   
 | 15/04/2023 -Day 008 |      [Compete the skills](https://rb.gy/zi43p)       |  22 GFG  | [Solution](https://rb.gy/8fab9) |   School   |    💚    |             Arrays School level problems completed              |   
-|                     |                                                      |    23    |                                 |            |          |                                                                 |   
+| 16/04/2023 -Day 009 |         [Binary Search](https://rb.gy/7iqv4)         |  23 GFG  | [Solution](https://rb.gy/xac9r) |   Basic    |    💚    |               easy problem try to solve recursive               |   
 |                     |                                                      |    24    |                                 |            |          |                                                                 |   
 |                     |                                                      |    25    |                                 |            |          |                                                                 |   
 |                     |                                                      |    26    |                                 |            |          |                                                                 |   
