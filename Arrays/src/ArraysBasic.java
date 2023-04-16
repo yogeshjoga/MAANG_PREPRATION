@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArraysBasic {
 
 
@@ -78,6 +80,35 @@ public class ArraysBasic {
         return temp;
     }
 
+    // Check if two arrays are equal or not
+
+    /*Example 1:
+
+    Input:
+    N = 5
+    A[] = {1,2,5,4,0}
+    B[] = {2,4,5,0,1}
+    Output: 1
+    Explanation: Both the array can be
+    rearranged to {0,1,2,4,5}
+    Example 2:
+
+    Input:
+    N = 3
+    A[] = {1,2,5}
+    B[] = {2,4,15}
+    Output: 0
+    Explanation: A[] and B[] have only
+    one common value.*/
+    public static boolean check(long A[],long B[],int N){
+        // lets Sort the Arrays
+        Arrays.sort(A);
+        Arrays.sort(B);
+        boolean result = (Arrays.equals(A,B)) ? true : false;
+        System.out.println(result);
+        return result;
+    }
+
 
 
 
@@ -92,6 +123,12 @@ public class ArraysBasic {
         binarySearchIndex(arr, len, key);
         // recursion
         binarySearchIndex2(arr, len, key);
+
+        //
+        long[] A = {1,3,2,7,4,6,5};
+        long[] B = {2,1,4,3,6,5,7};
+        int N = 7;
+        check(A,B,N);
 
     }
 }
