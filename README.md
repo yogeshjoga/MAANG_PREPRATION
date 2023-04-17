@@ -42,11 +42,9 @@
     <img src="https://readme-jokes.vercel.app/api" width="450px" />
 </p>
 
-
-# `🏆 Syllabus for SDE-1 Role 📋`
-
  <div align="center">
 
+# `🏆 Syllabus for SDE-1 Role 📋`
 
 | TOOL's and Tech |     RECOMMENDED     | 
 |:---------------:|:-------------------:|
@@ -60,9 +58,6 @@
 |   Networking    | Better to know CCNA | 
 |      Cloud      |    AWS/Azure/GCP    | 
 |  Technologies   |    DevOps tools     | 
-
-
-
 
 |                          YouTube Channel Name                           |      Content       |
 |:-----------------------------------------------------------------------:|:------------------:|
