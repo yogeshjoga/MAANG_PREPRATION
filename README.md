@@ -45,6 +45,8 @@
 
 # `🏆 Syllabus for SDE-1 Role 📋`
 
+ <div align="center">
+
 
 | TOOL's and Tech |     RECOMMENDED     | 
 |:---------------:|:-------------------:|
@@ -60,7 +62,7 @@
 |  Technologies   |    DevOps tools     | 
 
 
- <div align="center">
+
 
 |                          YouTube Channel Name                           |      Content       |
 |:-----------------------------------------------------------------------:|:------------------:|
