@@ -69,6 +69,10 @@
 |    [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)    |    DevOps tools    |      
 |                                  []()                                   |                    | 
 
+|    Every day 3 DSA problems     |       One System design       |       Revision every 20 days        |
+|:-------------------------------:|:-----------------------------:|:-----------------------------------:|
+| 3*20=60 DSA Questions per month | 20 Design Questions per month | take 10 days to revision all DSA/SD |
+
 # `🏆 Table of Contents 📋`
 
 | Okay Easy to Handle | Need to Understand | I Don't know learn more |
