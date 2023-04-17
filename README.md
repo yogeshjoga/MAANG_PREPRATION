@@ -62,6 +62,19 @@
 
  <div align="center">
 
+|                          YouTube Channel Name                           |      Content       |
+|:-----------------------------------------------------------------------:|:------------------:|
+|             [CodeKarle](https://www.youtube.com/@codeKarle)             |   System Design    |
+|              [SudoCode](https://www.youtube.com/@sudocode)              |   System Design    | 
+|               [Gaurav Sen](https://www.youtube.com/@gkcs)               |   System Design    | 
+|     [Concept && Coding](https://www.youtube.com/@ConceptandCoding)      |   System Design    | 
+|          [NetworKing](https://www.youtube.com/@NetworKingInc)           |     NetWorking     | 
+|          [NetworkChuck](https://www.youtube.com/@NetworkChuck)          |       linux        |      
+|             [LinuxHint](https://www.youtube.com/@linuxhint)             |       linux        |      
+|           [DavidBombal](https://www.youtube.com/@davidbombal)           | Networking/Hacking |      
+|    [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)    |    DevOps tools    |      
+|                                  []()                                   |                    | 
+
 # `🏆 Table of Contents 📋`
 
 | Okay Easy to Handle | Need to Understand | I Don't know learn more |
@@ -104,7 +117,7 @@
 | 14/04/2023 -Day 007 |         [Average in a stream](https://rb.gy/9bdub)          |  21 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |     😡     |              one more time need to do this problem              |   
 | 15/04/2023 -Day 008 |          [Compete the skills](https://rb.gy/zi43p)          |  22 GFG  | [Solution](https://rb.gy/8fab9)  |   School   |     💚     |             Arrays School level problems completed              |   
 | 16/04/2023 -Day 009 |            [Binary Search](https://rb.gy/7iqv4)             |  23 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |     💚     |               easy problem try to solve recursive               |   
-| 16/04/2023 -Day 009 | [Check if two arrays are equal or not](https://rb.gy/e8ps0) |  24 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |     💚     |                                                                 |   
+| 16/04/2023 -Day 009 | [Check if two arrays are equal or not](https://rb.gy/e8ps0) |  24 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |     💚     |                           super eady                            |   
 | 16/04/2023 -Day 009 |       [Reverse array in groups](https://rb.gy/yyb84)        |  25 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |     💔     |                                                                 |   
 | 17/04/2023 -Day 010 |                                                             |  26 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |            |                                                                 |   
 | 17/04/2023 -Day 010 |                                                             |  27 GFG  | [Solution](https://rb.gy/xac9r)  |   Basic    |            |                                                                 |   
