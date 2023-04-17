@@ -141,7 +141,7 @@ public class ArraysBasic {
     You don't need to read input or print anything. The task is to complete the function reverseInGroups()
     which takes the array, N and K as input parameters and modifies the array in-place. */
 
-    void reverseInGroups(ArrayList<Integer> arr, int n, int k) {
+   public static void reverseInGroups(ArrayList<Integer> arr, int n, int k) {
         int len =0;
         int m = Math.min(n,k);
         while(len<=m){
@@ -151,7 +151,7 @@ public class ArraysBasic {
         }
     }
    // correct solution
-   void reverseInGroups2(ArrayList<Integer> arr, int n, int k) {
+   public static void reverseInGroups2(ArrayList<Integer> arr, int n, int k) {
      for(int i=0;i<n;i=i+k) {
          int left=i;
          int right=Math.min(n-1,k+i-1);
@@ -180,6 +180,13 @@ public class ArraysBasic {
         check(A,B,N);
 
         // 3rd solution
-
+        ArrayList<Integer> arrlist = new ArrayList<>();
+        arrlist.add(12);
+        arrlist.add(11);
+        arrlist.add(10);
+        arrlist.add(9);
+        int lens = 4;
+        int arrKey = 10;
+        reverseInGroups2(arrlist,lens,arrKey);
     }
 }
