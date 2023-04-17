@@ -261,5 +261,8 @@ public class ArraysBasic {
         int lenSer = 10;
         int keySarch =9;
         search( arrSearch,  lenSer,  keySarch);
+
+
+        // fifth problem solution
     }
 }
