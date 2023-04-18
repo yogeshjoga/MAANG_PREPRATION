@@ -248,6 +248,53 @@ public class ArraysBasic {
          arr[0] =first;
      }
 
+     // 6th problem Find minimum and maximum element in an array
+    /* Given an array A of size N of integers. Your task is to find the minimum and maximum elements in the array.
+
+
+
+            Example 1:
+
+    Input:
+    N = 6
+    A[] = {3, 2, 1, 56, 10000, 167}
+    Output:
+    min = 1, max =  10000
+//User function Template for Java
+
+/*
+ class pair
+{
+    long first, second;
+    public pair(long first, long second)
+    {
+        this.first = first;
+        this.second = second;
+    }
+}
+
+
+   class Compute
+ {
+   // static pair getMinMax(long a[], long n)
+    {
+
+*/
+
+    public static long[] getMinMax(long arr[], long len){
+        /*  pair class object return type*/
+            long[] getmm = new long[1];
+            int arrLen = arr.length;
+            Arrays.sort(arr);
+            long min = arr[0];
+            long max = arr[arrLen-1];
+            getmm[0]= min;
+            getmm[1]= max;
+            return getmm;
+    }
+
+
+
 
 
 
@@ -294,6 +341,11 @@ public class ArraysBasic {
         int[] arrRo ={1,2,3,4,5};
         int lenRo = 5;
         rotate(arrRo,lenRo);
+
+        // get min max
+        long[] arrMin = {10,200,300,400,1000};
+        long minLen = 5;
+        getMinMax(arrMin, minLen);
 
     }
 }
