@@ -62,6 +62,8 @@
 | [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana) |    DevOps tools    |      
 |                               []()                                |                    | 
 
+# `Plan`
+
 |    Every day 3 DSA problems     |       One System design       |       Revision every 20 days        |
 |:-------------------------------:|:-----------------------------:|:-----------------------------------:|
 | 3*20=60 DSA Questions per month | 20 Design Questions per month | take 10 days to revision all DSA/SD |
@@ -82,6 +84,8 @@
 | 025  |  000   | 000  |
 
 
+
+# `Daily Learning Tracker`
 |        Date         |                          Question                           | Platform |             Solution             | Difficulty |  Reaction  |                           Description                           |
 |:-------------------:|:-----------------------------------------------------------:|:--------:|:--------------------------------:|:----------:|:----------:|:---------------------------------------------------------------:|
 | 08/04/2023 -Day 001 |                              -                              |    -     |                -                 |     -      |     💚     |               Ntg solved today just setup the env               |
