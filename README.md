@@ -18,7 +18,7 @@
 
 
 
-<p align="center">
+<p >
     <a href="https://github.com/yogeshjoga/MAANG_PREPRATION#readme" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=2CFF00&size=65&pause=750&width=1280&height=80&lines=The+Complete+MAANG+Preparation"/> </a>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=450&color=CB24F7&size=12&width=435&lines=Hi!+My+Name+is+YOGESH+JOGA.+I+started+MAANG+preparation;+my+goal+is+per+day+3+DSA+problems;+and+at+least+one+SYSTEM+DESIGN+problem." alt="Typing SVG" /></a>
 </p>
@@ -28,7 +28,7 @@
 
 ![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
 
-<p align="center">
+<p >
     <img src="https://readme-jokes.vercel.app/api" width="450px" />
 </p>
 
