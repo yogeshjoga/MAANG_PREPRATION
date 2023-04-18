@@ -191,7 +191,7 @@ public class Main {
     }
 
     // this is right solution
-   public static int[] findIndex2(int a[], int N, int key) {
+   public static int[] findIndex2(int[] a, int N, int key) {
         int[] start ={-1,-1};
         int flag = 0;
         for(int i=0;i<N;i++){
@@ -372,7 +372,7 @@ public class Main {
         long pluse3 = num*3;
         long pluse2 =num*2;
         String s = num+ ""+pluse2+""+pluse3;
-        int arr[] = new int [10];
+        int[] arr = new int [10];
         for(int i=0; i<9; i++) arr[i] =s.charAt(i)-48;
         Arrays.sort(arr);
         for(int i=0; i<9; i++) if(arr[i] !=i) return false;
@@ -454,7 +454,7 @@ public class Main {
     Store the score of A in ca and score of B in cb.*/
 
 
-    public static void scores(long a[], long b[]) {
+    public static void scores(long[] a, long[] b) {
         // store the answer as
         // GFG.ca=3;
         // GFG.cb=5;

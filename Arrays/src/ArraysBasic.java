@@ -102,11 +102,11 @@ public class ArraysBasic {
     Output: 0
     Explanation: A[] and B[] have only
     one common value.*/
-    public static boolean check(long A[],long B[],int N){
+    public static boolean check(long[] A, long[] B, int N){
         // lets Sort the Arrays
         Arrays.sort(A);
         Arrays.sort(B);
-        boolean result = (Arrays.equals(A,B)) ? true : false;
+        boolean result = Arrays.equals(A, B);
         System.out.println(result);
         return result;
     }
@@ -192,7 +192,7 @@ public class ArraysBasic {
      the index of first occurrence of X in the given array. If the element X does not exist in the array, the function should return -1
 
 */
-   public static int search(int arr[], int len, int key){
+   public static int search(int[] arr, int len, int key){
        int temp=0;
        for(int i=0; i<len; i++){
            if(arr[i] == key){
@@ -240,7 +240,7 @@ public class ArraysBasic {
     A[] = {9, 8, 7, 6, 4, 2, 1, 3}
     Output:
             3 9 8 7 6 4 2 1*/
-     public static void rotate(int arr[], int n){
+     public static void rotate(int[] arr, int n){
          int first = arr[n-1];
          for(int i=n-1; i>0; i--){
              arr[i] = arr[i-1];
@@ -291,5 +291,9 @@ public class ArraysBasic {
 
 
         // fifth problem solution
+        int[] arrRo ={1,2,3,4,5};
+        int lenRo = 5;
+        rotate(arrRo,lenRo);
+
     }
 }
