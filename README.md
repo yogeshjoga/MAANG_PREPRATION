@@ -74,12 +74,12 @@
 |         LC         |      LeetCode      |     DSA preparation     |
 |        HacR        |     HackerRank     |        Exploring        |
 
-# `💝 Total: 0025 💝`
+# `💝 Total: 0031 💝`
 
 
 | Easy | Medium | Hard |
 | :--: | :----: | :--: |
-| 025 |  000  | 000 |
+| 031 |  000  | 000 |
 
 # `Daily Learning Tracker`
 
