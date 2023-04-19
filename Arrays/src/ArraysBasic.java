@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class ArraysBasic {
 
@@ -293,8 +294,77 @@ public class ArraysBasic {
             return getmm;
     }
 
+    // Maximize sum(arr[i]*i) of an Array
+  /*  Given an array A of N integers. Your task is to write a program to find the maximum value of ∑arr[i]*i, where i = 0, 1, 2,., n 1.
+    You are allowed to rearrange the elements of the array.
+    Note: Since output could be large, hence module 109+7 and then print answer.
+
+    Example 1:
+
+    Input : Arr[] = {5, 3, 2, 4, 1}
+    Output : 40
+    Explanation:
+    If we arrange the array as 1 2 3 4 5 then
+    we can see that the minimum index will multiply
+    with minimum number and maximum index will
+    multiply with maximum number.
+    So 1*0+2*1+3*2+4*3+5*4=0+2+6+12+20 = 40 mod(109+7) = 40
+
+    Example 2:
+
+    Input : Arr[] = {1, 2, 3}
+    Output : 8
+*/
+
+    public static int Maximize(int arr[], int n)
+    {
+        Arrays.sort(arr);
+        // int mod = 1000000007;
+        long temp =0;
+        for(int i=0; i<n; i++){
+            temp+= (long)arr[i]*i;
+        }
+        return (int)((long)temp %(Math.pow(10,9)+7));
+    }
+
+   /* First element to occur k times
+    BasicAccuracy: 37.11%Submissions: 128K+Points: 1
+    Unlock your coding potential - join our Hiring Coding Contest and land your dream job!
+
+    Given an array of N integers. Find the first element that occurs at least K number of times.
 
 
+    Example 1:
+
+    Input :
+    N = 7, K = 2
+    A[] = {1, 7, 4, 3, 4, 8, 7}
+    Output :
+            4
+    Explanation:
+    Both 7 and 4 occur 2 times.
+            But 4 is first that occurs 2 times
+    As at index = 4, 4 has occurred
+    atleast 2 times whereas at index = 6,
+7 has occurred atleast 2 times.*/
+
+
+    //HASHMAP need to learn
+    public static int firstElementKTime(int[] arr, int n, int k) {
+        HashMap<Integer, Integer> s = new HashMap<Integer, Integer>();
+        for(int i=0; i<n; i++){
+            if(s.containsKey(arr[i])) {
+                s.put(arr[i], s.get(arr[i]) + 1);
+            } else {
+                s.put(arr[i], 1);
+            }
+            if(s.get(arr[i])==k){
+                return arr[i];
+            }
+        }
+
+        return -1;
+    }
 
 
 
@@ -346,6 +416,19 @@ public class ArraysBasic {
         long[] arrMin = {10,200,300,400,1000};
         long minLen = 5;
         getMinMax(arrMin, minLen);
+
+
+        //Maximize
+        int[] arrM ={1,2,3,4,5};
+        int lenM =5;
+        Maximize(arrM,lenM);
+
+        // hashmap need to learn
+        int[] arrHa = {1,2,3,4,2,5,6,7,8,1};
+        int lenHa = 10;
+        int keyH =2;
+        firstElementKTime(arrHa,lenHa, keyH);
+
 
     }
 }
