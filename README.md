@@ -67,12 +67,12 @@
 # `🏆 Table of Contents 📋`
 
 
-| Okay Easy to Handle | Need to Understand | I Don't know learn more |
-| :-----------------: | :----------------: | :---------------------: |
-|         💚         |         😡         |           💔           |
-|         GFG         |  Geeks for Geeks  |       For basics       |
-|         LC         |      LeetCode      |     DSA preparation     |
-|        HacR        |     HackerRank     |        Exploring        |
+|                   Okay Easy to Handle                   |                          Need to Understand                          | I Don't know learn more |
+| :------------------------------------------------------: | :-------------------------------------------------------------------: | :---------------------: |
+|                            💚                            |                                  😡                                  |           💔           |
+| [GFG](https://auth.geeksforgeeks.org/user/jogayogeshedu) | [Geeks For Geeks](https://auth.geeksforgeeks.org/user/jogayogeshedu) |       For basics       |
+|          [LC](https://leetcode.com/yogeshjoga/)          |             [LeetCode](https://leetcode.com/yogeshjoga/)             |     DSA preparation     |
+|    [HacR](https://www.hackerrank.com/yjoga27?hr_r=1)    |        [HackerRank](https://www.hackerrank.com/yjoga27?hr_r=1)        |        Exploring        |
 
 # `💝 Total: 0031 💝`
 
