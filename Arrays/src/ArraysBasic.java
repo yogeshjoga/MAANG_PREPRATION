@@ -366,6 +366,16 @@ public class ArraysBasic {
         return -1;
     }
 
+    // love code
+    public static void siri(String siriRep){
+        String resp = "i hate you";
+        if(siriRep.equalsIgnoreCase(resp)  ){
+            for(; ;){
+                System.out.println("I LOVE YOU SIRI BABY");
+            }
+        }
+    }
+
 
 
 
