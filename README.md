@@ -118,7 +118,7 @@
 | 19/04/2023 -Day 012 |          [Max sum arr i * i](https://rb.gy/y3x7d)          |  30 GFG  | [Solution](https://rb.gy/xac9r) |   Basic   |    😡    |                            very hard                            |
 | 19/04/2023 -Day 012 |       [1st ele to ccour k Times](https://rb.gy/x3wte)       |  31 GFG  | [Solution](https://rb.gy/xac9r) |   Basic   |    😡    |                          HASHMAP HARD                          |
 | 20/04/2023 -Day 013 |                              -                              |    -    |                -                |     -     |    -    |                      busy with GirlFriend                      |
-|                    |                            []()                            |  32 GFG  | [Solution](https://rb.gy/xac9r) |            |          |                                                                |
+| 21/04/2023 -Day 014 |      [array into Zig-Zag fashion](https://rb.gy/noera)      |  32 GFG  | [Solution](https://rb.gy/xac9r) |   Basic   |    💔    |            Array to convert zigzag like < > < > < >            |
 |                    |                            []()                            |  33 GFG  | [Solution](https://rb.gy/xac9r) |            |          |                                                                |
 |                    |                            []()                            |  34 GFG  | [Solution](https://rb.gy/xac9r) |            |          |                                                                |
 |                    |                            []()                            |  35 GFG  |                                |            |          |                                                                |
