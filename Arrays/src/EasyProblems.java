@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class EasyProblems {
     /***
@@ -78,8 +79,67 @@ public class EasyProblems {
        return result;
     }
 
+    /*Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
+
+    Example 1:
+
+    Input:
+    N = 5
+    A[] = {1,2,3,5}
+    Output: 4
+    Example 2:
+
+    Input:
+    N = 10
+    A[] = {6,1,2,8,3,4,7,10,5}
+    Output: 9*/
+
+    // missing array Element wrong solution
+
+    /*
+    public static int  missingArrayElement(int[] arr, int len){
+        Arrays.sort(arr);
+        int temp = 0;
+        int count = arr[0];
+        int hh = 0;
+        for(int i=0; i<len; i++){
+            // 1 2 3 5
+            if(arr[i] == count+hh){
+                temp = count + hh++;
+
+            }else{
+                temp = count+1;
+            }
+        }
+        System.out.println("this is the missing array element : "+temp);
+        return  temp;
+    }
+  */
+
+    public static int  missingArrayElement(int[] arr, int len){
+
+        int sum =0;
+        for(int i=0; i<len-1; i++){
+            sum+=arr[i];
+        }
+        int miss = (len*(len+1))/2;
+        int x = miss-sum;
+        System.out.println("this is the missing array element : "+ x );
+        return x;
+
+    }
 
     public static void main(String[] args) {
+       // add sum of array elements subarraySum
+        int[] arr ={23,4,5,7,8,2};
+        int len =6;
+        int key = 16;
+        subarraySum(arr,len,key);
+        // missing array element
+        int[] arrMaE = {1,2,3,4,5,6,7,8,10};
+        int lenMaE = 9;
+        missingArrayElement(arrMaE, lenMaE);
+
 
     }
 }
