@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class EasyProblems {
     /***
@@ -205,6 +206,56 @@ public class EasyProblems {
     }
 
 
+    // 4th problem
+
+    /*Given an array A of positive integers.
+    Your task is to find the leaders in the array.
+    An element of array is leader if it is greater than or equal to all the elements to its right side.
+     The rightmost element is always a leader.
+
+    Example 1:
+    Input:
+    n = 6
+    A[] = {16,17,4,3,5,2}
+    Output: 17 5 2
+    Explanation: The first leader is 17
+    as it is greater than all the elements
+    to its right.  Similarly, the next
+    leader is 5. The right most element
+    is always a leader so it is also
+    included.
+
+
+    Example 2:
+    Input:
+    n = 5
+    A[] = {1,2,3,4,0}
+    Output: 4 0
+
+
+    Your Task:
+    You don't need to read input or print anything.
+     The task is to complete the function leader()
+      which takes array A and n as input parameters and returns
+      an array of leaders in order of their appearance.
+
+*/
+    static ArrayList<Integer> leaders(int arr[], int n){
+        ArrayList<Integer> result = new ArrayList<>();
+        int max = arr[n-1];
+        result.add(arr[n-1]);
+        for(int i=n-2; i>=0; i--){
+            if(arr[i] >= max){
+                max = arr[i];
+                result.add(arr[i]);
+            }
+        }
+        Collections.reverse(result);
+        return result;
+    }
+
+
+
 
 
 
@@ -228,8 +279,13 @@ public class EasyProblems {
         int[] arrSort ={ 10,11,2,20,1,30,13};
         int lenSort = 7;
         sort012(arrSort, lenSort);
-        // 2nd solution
+        // 2nd approach solution
         sort012222(arrSort, lenSort);
+
+        // 4th problem
+        int[] arrLead ={16,17,1,2,3,5,2};
+        int lenLead = 7;
+        leaders(arrLead, lenLead);
 
 
     }
