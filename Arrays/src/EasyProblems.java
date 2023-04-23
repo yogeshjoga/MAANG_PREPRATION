@@ -129,16 +129,107 @@ public class EasyProblems {
 
     }
 
+    // 3rd Easy problem Sort an array of 0s, 1s and 2s
+   /* Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
+    Example 1:
+    Input:
+    N = 5
+    arr[]= {0 2 1 2 0}
+    Output:
+            0 0 1 2 2
+    Explanation:
+            0s 1s and 2s are segregated
+    into ascending order.
+            Example 2:
+
+    Input:
+    N = 3
+    arr[] = {0 1 0}
+    Output:
+            0 0 1
+    Explanation:
+            0s 1s and 2s are segregated
+    into ascending order.*/
+
+    public static void sort012(int[] arr, int len){
+        /**
+         * Arrays sort method also working
+         * but its not good approach to solve DSA problems
+         */
+        // Arrays.sort(arr);
+
+        // lets develop
+
+        // time limit exceeded
+        int temp = 0;
+        for(int i=0; i<len-1; i++){
+            if(arr[i] > arr[i+1]){
+                temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+                i= -1;
+            }
+        }
+        for(int aa: arr){
+            System.out.print(aa+ " ");
+        }
+    }
+
+ // correct solution
+
+    public static void sort012222(int[] arr, int len){
+     //   Arrays.sort(a);
+     int high = len-1;
+     int mid = 0;
+     int low = 0;
+     while(mid <= high){
+         switch(arr[mid]){
+             case 0:
+                 swap(arr, low++, mid++);
+                 break;
+             case 1:
+                 mid++;
+                 break;
+             case 2:
+                 swap(arr, mid, high--);
+                 break;
+         }
+     }
+ }
+
+    // swap Call
+    public static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+
+
+
+
+    /**
+     * main method started here
+     * @param args
+     */
     public static void main(String[] args) {
        // add sum of array elements subarraySum
         int[] arr ={23,4,5,7,8,2};
         int len =6;
         int key = 16;
         subarraySum(arr,len,key);
+
         // missing array element
         int[] arrMaE = {1,2,3,4,5,6,7,8,10};
         int lenMaE = 9;
         missingArrayElement(arrMaE, lenMaE);
+
+        // sort the 012 s
+        int[] arrSort ={ 10,11,2,20,1,30,13};
+        int lenSort = 7;
+        sort012(arrSort, lenSort);
+        // 2nd solution
+        sort012222(arrSort, lenSort);
 
 
     }
