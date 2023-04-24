@@ -254,7 +254,56 @@ public class EasyProblems {
         return result;
     }
 
+/*
+    Given an array A of n positive numbers. The task is to find the first Equilibrium Point in an array.
+    Equilibrium Point in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
 
+            Note: Retun the index of Equilibrium point. (1-based index)
+
+    Example 1:
+
+    Input:
+    n = 5
+    A[] = {1,3,5,2,2}
+    Output: 3
+    Explanation:
+    equilibrium point is at position 3
+    as elements before it (1+3) =
+    elements after it (2+2).
+
+
+    Example 2:
+
+    Input:
+    n = 1
+    A[] = {1}
+    Output: 1
+    Explanation:
+    Since its the only element hence
+    its the only equilibrium point.*/
+
+
+    public static int equilibriumPoint(long a[], int n) {
+        if(n==1) return 1;
+        long sum=0,currsum=0;
+
+        for(int i=0;i<n;i++)//for  total sum of arr
+            sum+=a[i];
+
+        int k=-1;
+
+        for(int i=1;i<n;i++){
+            currsum+=a[i-1]; // it  store prefix sum
+            if(currsum==sum-a[i]-currsum)
+            {
+                k=i+1;
+                break;
+            }
+        }
+
+        return k;
+
+    }
 
 
 
@@ -286,6 +335,12 @@ public class EasyProblems {
         int[] arrLead ={16,17,1,2,3,5,2};
         int lenLead = 7;
         leaders(arrLead, lenLead);
+
+
+        // 5th
+        long[] arrEq  = {1,2,3,2,1};
+        int lenEq = 5;
+        equilibriumPoint(arrEq,lenEq);
 
 
     }
