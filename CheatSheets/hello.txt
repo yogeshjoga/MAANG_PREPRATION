@@ -1,0 +1,44 @@
+𝗙𝗿𝗼𝗻𝘁 𝗘𝗻𝗱 𝗖𝗵𝗲𝗮𝘁 𝗦𝗵𝗲𝗲𝘁𝘀
+
+HTML - https://htmlcheatsheet.com
+HTML4 - https://lnkd.in/d_44TCbX
+HTML5 - https://lnkd.in/dg2uMc44
+CSS - https://lnkd.in/d8nvha7J
+CSS2 - https://lnkd.in/dT7pSZYX
+CSS3 - https://lnkd.in/dkhdVi9U
+JavaScript - https://lnkd.in/dGgHwc-D
+Jquery - https://lnkd.in/dnzkkqKS
+Bootstrap - https://lnkd.in/dvJnTwJE
+Bootstrap3 - https://lnkd.in/d4jSpNeQ
+Bootstrap4 - https://lnkd.in/dkpV9MDk
+Font families - http://fontfamily.io
+
+𝗕𝗮𝗰𝗸 𝗘𝗻𝗱 𝗖𝗵𝗲𝗮𝘁 𝗦𝗵𝗲𝗲𝘁𝘀
+
+Java - https://lnkd.in/dpA4fMru
+PHP - https://lnkd.in/dsg7Zb9N
+Python - https://lnkd.in/dYyi3-HF
+Ruby basics - https://lnkd.in/d-XYipCa
+Ruby 1.8.4 - https://lnkd.in/dc2mnRuB
+.net - https://lnkd.in/dhpu7_-H
+C - https://lnkd.in/db_ybPfz
+C++ - https://lnkd.in/dbYgG9nw
+Express.js - https://lnkd.in/dH3YjjKs
+Node.js - https://lnkd.in/dUpDAAnQ
+
+𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗖𝗵𝗲𝗮𝘁 𝗦𝗵𝗲𝗲𝘁𝘀
+
+SQL commands - https://lnkd.in/dQjpteVF
+Oracle SQL - https://lnkd.in/d9sRdUE9
+Oracle SQL commands - https://lnkd.in/dBVnHidv
+MySQL - https://lnkd.in/ds-TP7YX
+PostgreSQL - https://lnkd.in/dCtZrmB5
+MongoDB - https://lnkd.in/d6He6gZW
+
+𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗥𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗦𝗵𝗲𝗲𝘁𝘀
+
+Principles of agile software development - https://lnkd.in/digSRHXF
+Git - https://lnkd.in/dqgtgCXU
+JSON - https://lnkd.in/dv-RWXV8
+UNIX/LINUX commands - https://lnkd.in/dznUZZvf
+HTTP status codes - https://lnkd.in/d6ZCfmPy
