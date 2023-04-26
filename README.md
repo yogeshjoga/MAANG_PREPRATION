@@ -27,7 +27,6 @@
     < img src="https://readme-jokes.vercel.app/api" width="450px" />
 </p>
 
-
 # `Here CheatSheets are available just check it.`
 
 
@@ -45,7 +44,6 @@
 | [BOOTSTRAP 3](https://lnkd.in/d4jSpNeQ) | [NODE JS](https://lnkd.in/dUpDAAnQ)    | -----NA-----                                |
 | [BOOTSTRAP 4](https://lnkd.in/dkpV9MDk) | ---NA---                               | -----NA-----                                |
 | [FONT FAMILIES](http://fontfamily.io)   | ---NA---                               | -----NA-----                                |
-
 
 # `🏆 Syllabus for SDE-1 Role 📋`
 
@@ -144,8 +142,8 @@
 | 23/04/2023 -Day 016 |    [Sort an array of 0s, 1s and 2s](https://rb.gy/7uach)    |  35 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    | Not Easy little confusion make sure all easy problems pratice more and more |
 | 23/04/2023 -Day 016 |         [Leaders in an array](https://rb.gy/rmcly)         |  37 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    | little hard due to lack of DS knowledge theory is imp focus into theory part |
 | 24/04/2023 -Day 017 |          [Equilibrium Point](https://rb.gy/g7fhp)          |  38 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    |                         i dont know how to solve it                         |
-| 25/04/2023 -Day 018 |          [Stock buy and sell](https://rb.gy/25q1v)          |  39 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    |                 little easy problem but need to understand                  |
-| 24/04/2023 -Day 018 |                            []()                            |  40 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |          |                                                                              |
+| 25/04/2023 -Day 018 |          [Stock buy and sell](https://rb.gy/25q1v)          |  39 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    |                  little easy problem but need to understand                  |
+| 26/04/2023 -Day 019 |     [Largest subarray with 0 sum](https://rb.gy/93yxw)     |  40 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |    😡    |                             using HASHTABLE DS                              |
 |                    |                                                            |  41 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |          |                                                                              |
 |                    |                                                            |  42 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |          |                                                                              |
 |                    |                                                            |  43 GFG  | [Solution](https://rb.gy/xac9r) |    Easy    |          |                                                                              |

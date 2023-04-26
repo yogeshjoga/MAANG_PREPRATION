@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class EasyProblems {
     /***
@@ -366,6 +367,44 @@ public class EasyProblems {
 
 
 
+   //Largest subarray with 0 sum
+
+    /*Given an array having both positive and negative integers. The task is to compute the length of the largest subarray with sum 0.
+
+    Example 1:
+
+    Input:
+    N = 8
+    A[] = {15,-2,2,-8,1,7,10,23}
+    Output: 5
+    Explanation: The largest subarray with
+    sum 0 will be -2 2 -8 1 7.
+    Your Task:
+    You just have to complete the function maxLen() which takes two arguments an array A and n,
+    where n is the size of the array A and returns the length of the largest subarray with 0 sum.*/
+   public static int maxLen(int arr[], int n)
+    {
+        HashMap<Integer,Integer> map = new HashMap<>();
+        int currSum = 0 , start = 0 , end = -1;
+        int largest = 0;
+
+        for(int i=0;i<n;i++){
+            currSum += arr[i];
+
+            if(currSum == 0) {
+                start = 0 ; end = i;
+                largest = Math.max(largest,end-start+1);
+            }else if(map.containsKey(currSum)){
+                start = map.get(currSum) + 1;
+                end = i;
+                largest = Math.max(largest,end-start+1);
+            }else{
+                map.put(currSum, i);
+            }
+        }
+        return largest;
+    }
+
 
 
     /**
@@ -401,6 +440,11 @@ public class EasyProblems {
         long[] arrEq  = {1,2,3,2,1};
         int lenEq = 5;
         equilibriumPoint(arrEq,lenEq);
+
+        // 6th Largest subarray with 0 sum
+        int[] arrMaxlen ={17,-2,2,-8,1,7,12};
+        int lenMaxLen = 7;
+        maxLen(arrMaxlen, lenMaxLen);
 
 
     }
