@@ -406,6 +406,70 @@ public class EasyProblems {
     }
 
 
+    // 7th Array Subset of another array
+   /* Given two arrays: a1[0..n-1] of size n and a2[0..m-1] of size m. Task is to check whether a2[] is a subset of a1[] or not.
+   Both the arrays can be sorted or unsorted.
+    Example 1:
+    Input:
+    a1[] = {11, 1, 13, 21, 3, 7}
+    a2[] = {11, 3, 7, 1}
+    Output:
+    Yes
+    Explanation:
+    a2[] is a subset of a1[]
+    Example 2:
+    Input:
+    a1[] = {1, 2, 3, 4, 5, 6}
+    a2[] = {1, 2, 4}
+    Output:
+    Yes
+    Explanation:
+    a2[] is a subset of a1[]
+    Example 3:
+    Input:
+    a1[] = {10, 5, 2, 23, 19}
+    a2[] = {19, 5, 3}
+    Output:
+    No
+    Explanation:
+    a2[] is not a subset of a1[]*/
+    public static String isSubset( long a1[], long a2[], long n, long m) {
+        int temp = -1;
+        for(int i=0; i<n; i++){
+            for(int j=0;j<m; j++){
+                if(a1[i] == a2[j]){
+                    temp++;
+                    break;
+                }
+            }
+        }
+        if(temp == m){
+            return "Yes";
+        }
+        return "No";
+    }
+    // 2nd approach sorting
+    public  static String isSubset2( long a1[], long a2[], long n, long m){
+        Arrays.sort(a1);
+        Arrays.sort(a2);
+        int temp = 0;
+        int j =0;
+        for(int i=0; i<n; i++){
+            if(m<=j){
+                break;
+            }else{
+                if(a1[i] == a2[j] ){
+                    temp++;
+                    j++;
+                }
+            }
+
+        }
+        if(temp == m){
+            return "Yes";
+        }
+        return "No";
+    }
 
     /**
      * main method started here
@@ -416,36 +480,44 @@ public class EasyProblems {
         int[] arr ={23,4,5,7,8,2};
         int len =6;
         int key = 16;
-        subarraySum(arr,len,key);
+    //    subarraySum(arr,len,key);
 
         // missing array element
         int[] arrMaE = {1,2,3,4,5,6,7,8,10};
         int lenMaE = 9;
-        missingArrayElement(arrMaE, lenMaE);
+   //     missingArrayElement(arrMaE, lenMaE);
 
         // sort the 012 s
         int[] arrSort ={ 10,11,2,20,1,30,13};
         int lenSort = 7;
         sort012(arrSort, lenSort);
         // 2nd approach solution
-        sort012222(arrSort, lenSort);
+    //    sort012222(arrSort, lenSort);
 
         // 4th problem
         int[] arrLead ={16,17,1,2,3,5,2};
         int lenLead = 7;
-        leaders(arrLead, lenLead);
+      //  leaders(arrLead, lenLead);
 
 
         // 5th
         long[] arrEq  = {1,2,3,2,1};
         int lenEq = 5;
-        equilibriumPoint(arrEq,lenEq);
+     //   equilibriumPoint(arrEq,lenEq);
 
         // 6th Largest subarray with 0 sum
         int[] arrMaxlen ={17,-2,2,-8,1,7,12};
         int lenMaxLen = 7;
-        maxLen(arrMaxlen, lenMaxLen);
+       // maxLen(arrMaxlen, lenMaxLen);
 
+        // 7th Array Subset of another array
+        long[] arr1 ={1,2,3,4,1,1,5,6};
+        long len1 = 8;
+        long[] arr2 = {1,2,3,4,1};
+        long len2 = 5;
+     //   isSubset(arr1, arr2,len1,len2);
+
+        isSubset2(arr1, arr2,len1,len2);
 
     }
 }
