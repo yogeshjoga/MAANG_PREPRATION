@@ -73,7 +73,7 @@
 |          [LinuxHint](https://www.youtube.com/@linuxhint)          |       linux       |
 |        [DavidBombal](https://www.youtube.com/@davidbombal)        | Networking/Hacking |
 | [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana) |    DevOps tools    |
-|                               []()                               |                    |
+|          [IT k Funde](https://www.youtube.com/@ITkFunde)          |     NetWorking     |
 
 # `Plan`
 
