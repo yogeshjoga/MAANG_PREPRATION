@@ -92,12 +92,12 @@
 |          [LC](https://leetcode.com/yogeshjoga/)          |             [LeetCode](https://leetcode.com/yogeshjoga/)             |     DSA preparation     |
 |    [HacR](https://www.hackerrank.com/yjoga27?hr_r=1)    |        [HackerRank](https://www.hackerrank.com/yjoga27?hr_r=1)        |        Exploring        |
 
-# `💝 Total: 0031 💝`
+# `💝 Total: 0041 💝`
 
 
 | Easy | Medium | Hard |
 | :--: | :----: | :--: |
-| 031 |  000  | 000 |
+| 041 |  000  | 000 |
 
 # `Daily Learning Tracker`
 
