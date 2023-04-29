@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Build_In_Methods_in_Java/Build_In_Methods_in_Java.iml" filepath="$PROJECT_DIR$/Build_In_Methods_in_Java/Build_In_Methods_in_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" filepath="$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" />
       <module fileurl="file://$PROJECT_DIR$/Revision_JAVA_Basics/Revision_JAVA_Basics.iml" filepath="$PROJECT_DIR$/Revision_JAVA_Basics/Revision_JAVA_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/cracking_coding_interview/cracking_coding_interview.iml" filepath="$PROJECT_DIR$/cracking_coding_interview/cracking_coding_interview.iml" />
