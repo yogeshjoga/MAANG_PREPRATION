@@ -470,6 +470,40 @@ public class EasyProblems {
         }
         return "No";
     }
+    // 7th Longest Common Prefix in an Array
+    /*Given a array of N strings, find the longest common prefix among all strings present in the array.
+     Example 1:
+    Input:
+    N = 4
+    arr[] = {geeksforgeeks, geeks, geek,
+            geezer}
+    Output: gee
+    Explanation: "gee" is the longest common
+    prefix in all the given strings.
+    Example 2:
+
+    Input:
+    N = 2
+    arr[] = {hello, world}
+    Output: -1
+    Explanation: There's no common prefix
+    in the given strings.*/
+    public static String longestCommonPrefix(String arr[], int n){
+
+        String commonpre = arr[0];
+        for(int i=0; i<arr.length; i++){
+            while(arr[i].indexOf(commonpre) != 0){
+                commonpre = commonpre.substring(0, commonpre.length()-1);
+                if(commonpre.isEmpty()){
+                    return "-1";
+                }
+            }
+        }
+        return commonpre;
+    }
+
+
+
 
     /**
      * main method started here
@@ -516,8 +550,12 @@ public class EasyProblems {
         long[] arr2 = {1,2,3,4,1};
         long len2 = 5;
      //   isSubset(arr1, arr2,len1,len2);
-
         isSubset2(arr1, arr2,len1,len2);
+
+        // 8th problem
+        String[] arrLongString = {"yogeshBilla","yogeshJoga","yogeshDarling"};
+        int lenLongCom = 3;
+        longestCommonPrefix(arrLongString,  lenLongCom);
 
     }
 }
