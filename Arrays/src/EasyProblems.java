@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class EasyProblems {
     /***
@@ -503,6 +500,51 @@ public class EasyProblems {
     }
 
 
+    public static class pair  {
+        long first, second;
+        public pair(long first, long second)
+        {
+            this.first = first;
+            this.second = second;
+        }
+    }
+     public static pair[] allPairs( long A[], long B[], long N, long M, long target) {
+        // Your code goes here
+        // Your code goes here
+
+        //sorting the A array
+        Arrays.sort(A) ;
+        Set <Long> set = new LinkedHashSet<>();
+        ArrayList <pair> list = new ArrayList <>();
+
+        for(Long x : B)
+        {
+            set.add(x) ;
+        }
+
+        for(Long x : A)
+        {
+            if(set.contains(target - x ))
+            {
+                pair p = new pair(x,target-x) ;
+                list.add(p) ;
+            }
+        }
+
+        pair []  ans  = new pair [list.size()] ;
+
+        int k = 0 ;
+
+        for(pair x : list )
+        {
+            ans[k++] = x;
+        }
+
+        return ans ;
+
+    }
+
+
 
 
     /**
@@ -556,6 +598,11 @@ public class EasyProblems {
         String[] arrLongString = {"yogeshBilla","yogeshJoga","yogeshDarling"};
         int lenLongCom = 3;
         longestCommonPrefix(arrLongString,  lenLongCom);
+
+
+        // 9th problem
+        // learn more
+       // allPairs()
 
     }
 }
