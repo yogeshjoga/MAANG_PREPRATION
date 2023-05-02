@@ -543,8 +543,33 @@ public class EasyProblems {
         return ans ;
 
     }
+   /* Bitonic Point
+    EasyAccuracy: 58.67%Submissions: 92K+Points: 2
+    Explore Job Fair for students & freshers for daily new opportunities. Find A Job Today!
 
+    Given an array arr of n elements that is first strictly increasing and then maybe strictly decreasing, find the maximum element in the array.
+            Note: If the array is increasing then just print the last element will be the maximum value.
 
+    Example 1:
+
+    Input:
+    n = 9
+    arr[] = {1,15,25,45,42,21,17,12,11}
+    Output: 45
+    Explanation: Maximum element is 45.
+    Example 2:
+
+    Input:
+    n = 5
+    arr[] = {1, 45, 47, 50, 5}
+    Output: 50
+    Explanation: Maximum element is 50*/
+    public static int findMaximum(int[] arr, int n) {
+        Arrays.sort(arr);
+        int sol = arr.length -1;
+        int res = arr[sol];
+        return res;
+    }
 
 
     /**
@@ -603,6 +628,12 @@ public class EasyProblems {
         // 9th problem
         // learn more
        // allPairs()
+
+
+        //10
+        int[] arrFind ={23,12,1,2,4,43};
+        int lenFind = 7;
+        findMaximum(arrFind, lenFind);
 
     }
 }
