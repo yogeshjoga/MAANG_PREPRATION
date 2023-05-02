@@ -123,12 +123,12 @@
 |          [LC](https://leetcode.com/yogeshjoga/)          |             [LeetCode](https://leetcode.com/yogeshjoga/)             |     DSA preparation     |
 |    [HacR](https://www.hackerrank.com/yjoga27?hr_r=1)    |        [HackerRank](https://www.hackerrank.com/yjoga27?hr_r=1)        |        Exploring        |
 
-# `💝 Total: 0041 💝`
+# `💝 Total: 0047 💝`
 
 
 | Easy | Medium | Hard |
 | :--: | :----: | :--: |
-| 041 |  000  | 000 |
+| 047 |  000  | 000 |
 
 # `Daily Learning Tracker`
 
