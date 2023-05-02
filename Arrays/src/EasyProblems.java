@@ -571,6 +571,50 @@ public class EasyProblems {
         return res;
     }
 
+  /*  Minimize the sum of product
+    EasyAccuracy: 56.91%Submissions: 72K+Points: 2
+    Upskill with this problem, Get placed in Job Fair 2023! Explore Opportunities Now!
+
+    You are given two arrays, A and B, of equal size N.
+    The task is to find the minimum value of A[0] * B[0] + A[1] * B[1] + .... + A[N-1] * B[N-1],
+     where shuffling of elements of arrays A and B is allowed.
+
+    Example 1
+    Input:
+    N = 3
+    A[] = {3, 1, 1}
+    B[] = {6, 5, 4}
+    Output:
+            23
+    Explanation:
+            1*6+1*5+3*4 = 6+5+12
+            = 23 is the minimum sum
+
+
+    Example 2:
+
+    Input:
+    N = 5
+    A[] = {6, 1, 9, 5, 4}
+    B[] = {3, 4, 8, 2, 4}
+    Output:
+            80
+    Explanation:
+            2*9+3*6+4*5+4*4+8*1
+            =18+18+20+16+8
+            = 80 is the minimum sum
+*/
+    public static long minValue(long a[], long b[], long n)
+    {
+        Arrays.sort(a);
+        Arrays.sort(b);
+        long sum = 0L;
+        for(int i=0; i<a.length; i++){
+            sum += a[i]* b[a.length -i -1];
+        }
+        return sum;
+    }
+
 
     /**
      * main method started here
@@ -634,6 +678,13 @@ public class EasyProblems {
         int[] arrFind ={23,12,1,2,4,43};
         int lenFind = 7;
         findMaximum(arrFind, lenFind);
+
+
+        // 11th min value
+        long[] arrLongA= {1,3,4,2,5};
+        long[] arrLongB = {8,4,5,6,9};
+        long lenLong = 5L;
+        minValue(arrLongA, arrLongB,lenLong);
 
     }
 }
