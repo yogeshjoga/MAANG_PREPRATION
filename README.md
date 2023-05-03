@@ -23,10 +23,6 @@
 
 ![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)
 
-<p align="center">
-    < img src="https://readme-jokes.vercel.app/api" width="450px" />
-</p>
-
 # `Here CheatSheets are available just check it.`
 
 
