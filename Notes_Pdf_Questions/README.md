@@ -51,5 +51,3 @@
 | 13. #1022 Sum of Root To Leaf Binary Numbers       |
 | 14. #1104 Path In Zigzag Labelled Binary Tree      |
 | 15. #1110 Delete Nodes And Return Forest           |
-
-uiuiuiu
