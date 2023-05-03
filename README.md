@@ -89,6 +89,9 @@
 |  Technologies  |    DevOps tools    |
 
 
+# ``Online resources to learn``
+
+
 |                       YouTube Channel Name                       |      Content      |
 | :---------------------------------------------------------------: | :----------------: |
 |          [CodeKarle](https://www.youtube.com/@codeKarle)          |   System Design   |
