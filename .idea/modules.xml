@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Build_In_Methods_in_Java/Build_In_Methods_in_Java.iml" filepath="$PROJECT_DIR$/Build_In_Methods_in_Java/Build_In_Methods_in_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" filepath="$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" />

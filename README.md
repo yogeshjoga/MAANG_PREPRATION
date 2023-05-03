@@ -75,7 +75,7 @@
 # `🏆 Syllabus for SDE-1 Role 📋`
 
 
-| TOOL's and Tech |     RECOMMENDED     |
+| TOOL's and Tech |     RECOMMENDED     |  
 | :-------------: | :-----------------: |
 | Select OOP lang |        JAVA        |
 |       DSA       |      LeetCode      |
