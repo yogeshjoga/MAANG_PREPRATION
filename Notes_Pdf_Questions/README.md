@@ -1,6 +1,6 @@
-# Basic Problems for Beginner's
+# Basic Problems for Beginners
 
-`start topic wise learning simple problems`
+`start topic-wise learning simple problems`
 
 
 | Two Pointers :-                               | Binary Search :-                         | Hashmap :-                                            |
