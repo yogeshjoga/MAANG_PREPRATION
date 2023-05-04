@@ -30,6 +30,33 @@ public class MediumArrays {
         System.out.println(minVal);
         return minVal;
     }
+   public static int minJumps(int[] arr){
+        // its not valid time taken
+        // int sum = 0;
+        // int jump;
+        // for(int i=0; i<arr.length; i=i+jump){
+        //     jump=arr[i];
+        //     sum++;
+        // }
+        // return sum;
+
+        int n = arr.length;
+        int cnt=0;
+        for(int i =1;i<n;i++)
+            arr[i]=Math.max(arr[i]+i,arr[i-1]);
+
+
+        int i =0;
+        while(i<n-1)
+        {
+            if(arr[i]<=i)
+                return -1;
+            i=arr[i];
+            cnt++;
+        }
+        return cnt;
+    }
+
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -37,6 +64,10 @@ public class MediumArrays {
         long arr[] ={-8,1,2,3,4,-5,2,-9};
         int len = 8;
         maxSubArraySum(arr,len);
+
+        // 2nd minJump
+        int[] arrInt = {1,2,3,4,5,6,7,8,9,10};
+        minJumps(arrInt);
     }
 
 }
