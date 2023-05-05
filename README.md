@@ -128,6 +128,13 @@
 | :--: | :----: | :--: |
 | 047 |  000  | 000 |
 
+# status of problems
+
+
+| Easy to handle | Hard to handle | I don't have idea need to learn concepts |
+| :------------: | :------------: | :--------------------------------------: |
+|      025      |      021      |                   003                   |
+
 # `Daily Learning Tracker`
 
 
@@ -180,8 +187,8 @@
 | 01/05/2023 -Day 024 | [Find all pairs with a given sum](https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1?page=1&difficulty[]=0&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions) |  45 GFG  |                                  [Solution](https://rb.gy/xac9r)                                  |    Easy    |    😡    |                          HashMap/set data Structers used                          |
 | 02/05/2023 -Day 025 |        [Bitonic Point](https://practice.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/1?page=1&difficulty[]=0&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)        |  46 GFG  |                                  [Solution](https://rb.gy/xac9r)                                  |    Easy    |    💚    |                              very easy problem arrays                              |
 | 02/05/2023 -Day 025 |    [Minimize the sum of product](https://practice.geeksforgeeks.org/problems/minimize-the-sum-of-product1525/1?page=1&difficulty[]=0&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)    |  47 GFG  |                                  [Solution](https://rb.gy/xac9r)                                  |    Easy    |    💚    |                              Little easy from Arrays                              |
-| 03/05/2023 -Day 026 |          [Kadane's Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)          |  48 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    💚    |                                                                                    |
-| 03/05/2023 -Day 027 |    [Minimum number of jumps](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)    |  49 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    😡    |                                                                                    |
+| 03/05/2023 -Day 026 |          [Kadane's Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)          |  48 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    💚    |                                    little easy                                    |
+| 04/05/2023 -Day 027 |    [Minimum number of jumps](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)    |  49 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    😡    |                                   hard to handle                                   |
 |                    |                                                                                                 []()                                                                                                 |  50 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
 |                    |                                                                                                 []()                                                                                                 |  51 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
 |                    |                                                                                                 []()                                                                                                 |  52 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
