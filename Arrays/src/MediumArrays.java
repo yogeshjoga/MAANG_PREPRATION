@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MediumArrays {
 
     /**
@@ -56,6 +58,18 @@ public class MediumArrays {
         }
         return cnt;
     }
+    public static int kthSmallest(int[] arr, int k)
+    {
+        Arrays.sort(arr);
+        int res =0;
+        int n = arr.length;
+        for(int i=0; i<n; i++){
+            if(k-1 == i){
+                res = arr[i];
+            }
+        }
+        return res;
+    }
 
 
     public static void main(String[] args) {
@@ -68,6 +82,9 @@ public class MediumArrays {
         // 2nd minJump
         int[] arrInt = {1,2,3,4,5,6,7,8,9,10};
         minJumps(arrInt);
+
+        // 3rd prolblem kth element
+        kthSmallest(arrInt,10);
     }
 
 }
