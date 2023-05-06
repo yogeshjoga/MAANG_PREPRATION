@@ -121,12 +121,12 @@
 |          [LC](https://leetcode.com/yogeshjoga/)          |             [LeetCode](https://leetcode.com/yogeshjoga/)             |     DSA preparation     |
 |    [HacR](https://www.hackerrank.com/yjoga27?hr_r=1)    |        [HackerRank](https://www.hackerrank.com/yjoga27?hr_r=1)        |        Exploring        |
 
-# `💝 Total: 0047 💝`
+# `💝 Total: 0051 💝`
 
 
 | Easy | Medium | Hard |
 | :--: | :----: | :--: |
-| 047 |  000  | 000 |
+| 047 |  004  | 000 |
 
 # status of problems
 
@@ -190,7 +190,7 @@
 | 03/05/2023 -Day 026 |          [Kadane's Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)          |  48 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    💚    |                                    little easy                                    |
 | 04/05/2023 -Day 027 |    [Minimum number of jumps](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)    |  49 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    😡    |                                   hard to handle                                   |
 | 05/05/2023 -Day 028 |           [Kth smallest element](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)           |  50 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    💚    |                                     very easy                                     |
-|                    |                                                                                                 []()                                                                                                 |  51 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
+| 06/05/2023 -Day 029 |         [Minimize the Heights II](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1?page=1&difficulty[]=1&category[]=Arrays&curated[]=1&curated[]=8&sortBy=submissions)         |  51 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |    😡    |                                   little harder                                   |
 |                    |                                                                                                 []()                                                                                                 |  52 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
 |                    |                                                                                                 []()                                                                                                 |  53 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |
 |                    |                                                                                                 []()                                                                                                 |  54 GFG  | [Solution](https://github.com/yogeshjoga/MAANG_PREPRATION/blob/main/Arrays/src/MediumArrays.java) |   Medium   |          |                                                                                    |

@@ -74,6 +74,8 @@ public class MediumArrays {
 
     // 4th problem
     // Minimize the Heights II
+
+    // wrong solution
     public static int getMinDiff(int[] arr, int n, int k) {
         //   int last = 0;
         //   int fir = 0;
@@ -88,6 +90,28 @@ public class MediumArrays {
         int res = arr[arr.length-1] - arr[0];
         return res;
     }
+
+    // right solution
+   public static int getMinDiff1(int[] arr, int n, int k) {
+        // here sorting the array
+        Arrays.sort(arr);
+        int d = arr[n-1] - arr[0];
+        int min = 0, max =0;
+        for(int i=1;i<n;i++){
+            if(arr[i]-k < 0)
+                continue;
+            max = (int) Math.max(arr[n-1]-k, arr[i-1] + k);
+            min = (int) Math.min(arr[0]+k, arr[i]-k);
+            d =(int) Math.min(d,(max-min));
+        }
+        return d;
+    }
+
+
+
+
+
+
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -107,6 +131,9 @@ public class MediumArrays {
       int  k = 3, n = 5;
       int  arrp[] = {3, 9, 12, 16, 20};
         getMinDiff(arrp,n,k);
+        getMinDiff1(arrp,n,k);
+
+
     }
 
 }
