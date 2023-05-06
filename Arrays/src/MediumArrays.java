@@ -72,6 +72,23 @@ public class MediumArrays {
     }
 
 
+    // 4th problem
+    // Minimize the Heights II
+    public static int getMinDiff(int[] arr, int n, int k) {
+        //   int last = 0;
+        //   int fir = 0;
+
+        for(int i=0; i<n-1; i++){
+            if(k >= arr[i]){
+                arr[i] = arr[i] + k;
+            }else{
+                arr[i] = arr[i] - k;
+            }
+        }
+        int res = arr[arr.length-1] - arr[0];
+        return res;
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
         // 1st algo kadane
@@ -85,6 +102,11 @@ public class MediumArrays {
 
         // 3rd prolblem kth element
         kthSmallest(arrInt,10);
+
+        // 4th problem
+      int  k = 3, n = 5;
+      int  arrp[] = {3, 9, 12, 16, 20};
+        getMinDiff(arrp,n,k);
     }
 
 }
