@@ -6,12 +6,6 @@ public class BuiltInMethodsInJava {
      * @param args
      */
 
-    // Basic math Class Methods
-    public static void absMethod(){
-        //
-
-    }
-
 
 
     public static void main(String[] args) {
@@ -20,5 +14,18 @@ public class BuiltInMethodsInJava {
         System.out.println(result);
 
         System.out.println("Hello world!");
+
+        // here initialize object
+        MathBuildInMethods mathBuildInMethods = new MathBuildInMethods();
+
+
+        /**
+         * Math.max()
+         * Math.min()
+         * here let's solve the problems
+         */
+        int minNum = 13;
+        int maxNum = 104;
+        mathBuildInMethods.mathMinMax(minNum, maxNum);
     }
 }

@@ -20,26 +20,54 @@ public class MathBuildInMethods {
     // 1st method is Math.max();
     // 2nd method is Math.min();
 
+    public static void mathMinMax(int num1, int num2){
+        // let's print the max number 1st
+        int maxNum = Math.max(num1,num2);
+        System.out.println("Here we need to find which is max number :"+maxNum);
+
+        // let's print the min number
+        int minNum = Math.min(num1, num2);
+        System.out.println("Here we will print the min number  : " + minNum);
+
+    }
+
 
 
     // 3rd Math.abs();
     // 4th Math.round();
+    public static void mathAbsRound(int num1, int num2){
+
+    }
+
+
     // 5th Math.pow();
     // 6th Math.sqrt();
     // 7th Math.cbrt();
+    public static void mathPowSqrtCbrt(int num1, int num2){
+
+    }
+
     // 8th Math.signum()
     // 9th Math.ceil();
     // 10th Math.copysign();
+
+
     // 11th Math.nextAfter();
     // 12th Math.nextUp();
     // 13th Math.nextDown();
+
+
     // 14th Math.floor();
     // 15th Math.floorDiv();
+
+
     // 16th Math.random();
     // 17th Math.rint();
     // 18th Math.hypot();
     // 19th Math.ulp();
     // 20th Math.getExponent();
+
+
     // 21st Math.addExact();
     // 22nd Math.subtractExact();
     // 23rd Math.multiplyExact();
