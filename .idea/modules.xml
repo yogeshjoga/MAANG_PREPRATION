@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" filepath="$PROJECT_DIR$/.idea/MAANG_PREPRATION.iml" />
       <module fileurl="file://$PROJECT_DIR$/Revision_JAVA_Basics/Revision_JAVA_Basics.iml" filepath="$PROJECT_DIR$/Revision_JAVA_Basics/Revision_JAVA_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/cracking_coding_interview/cracking_coding_interview.iml" filepath="$PROJECT_DIR$/cracking_coding_interview/cracking_coding_interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructures_algos_made_easy_in_java/datastructures_algos_made_easy_in_java.iml" filepath="$PROJECT_DIR$/datastructures_algos_made_easy_in_java/datastructures_algos_made_easy_in_java.iml" />
     </modules>
