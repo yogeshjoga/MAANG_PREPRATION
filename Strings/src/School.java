@@ -21,11 +21,19 @@ public class School {
          return true;
      }
 
+     // 2nd problem is remove spaces in given line
+    public static String removeSpace(String str){
+         return str.replace(" ","");
+    }
+
 
     public static void main(String[] args) {
          // 1st problem
         String str = "1010101010";
           binaryCheck(str);
+          // 2nd problem is removing spaces from give line
+        String str1 = "Hello this is yogesh joga";
+        removeSpace(str1);
 
     }
 }
