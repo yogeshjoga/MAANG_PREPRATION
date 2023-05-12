@@ -42,6 +42,7 @@ public class LinkedList2 {
         /**
          * which value is the last added into the
          * list it will print 1st, why because it is the head of the linked list
+         * 
          */
         list.printingLinkedList2();
 
