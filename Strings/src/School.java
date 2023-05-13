@@ -27,13 +27,38 @@ public class School {
     }
 
 
-    public static void main(String[] args) {
-         // 1st problem
-        String str = "1010101010";
-          binaryCheck(str);
-          // 2nd problem is removing spaces from give line
-        String str1 = "Hello this is yogesh joga";
-        removeSpace(str1);
+    // 3rd jumbling ovwels
 
+    public static String modify (String s) {
+        String name = "";
+        String add = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o' || s.charAt(i) == 'u')
+                name += s.charAt(i);
+        }
+        int count = name.length() - 1;
+        int inc = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o' || s.charAt(i) == 'u') {
+                add += name.charAt(inc);
+                inc++;
+            } else {
+                add += s.charAt(i);
+            }
+        }
+        return add;
     }
+
+        public static void main(String[] args){
+            // 1st problem
+            String str = "1010101010";
+            binaryCheck(str);
+            // 2nd problem is removing spaces from give line
+            String str1 = "Hello this is yogesh joga";
+            removeSpace(str1);
+            // modify strings
+            String s1 = "apple";
+            modify(s1);
+        }
+
 }
