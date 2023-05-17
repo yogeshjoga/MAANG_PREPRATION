@@ -49,6 +49,29 @@ public class School {
         return add;
     }
 
+
+    public static String revStr(String S) {
+
+        String rev ="";
+        for(int i=0; i<S.length(); i++){
+            rev = S.charAt(i)+ rev;
+        }
+        return rev;
+    }
+
+    public static String upper(String str){
+         // to convert char array
+        char[] ch = str.toCharArray();
+        ch[0] = Character.toUpperCase(ch[0]);
+        for(int i=0; i<str.length(); i++){
+            if(ch[i] == ' '){
+                ch[i+1] = Character.toUpperCase(ch[i+1]);
+            }
+        }
+        System.out.println(new String(ch));
+         return new String(ch);
+    }
+
         public static void main(String[] args){
             // 1st problem
             String str = "1010101010";
@@ -59,6 +82,15 @@ public class School {
             // modify strings
             String s1 = "apple";
             modify(s1);
+
+            // reverse string
+            String s = "hello";
+            revStr(s);
+
+            // to upper case
+            String upper = "i love siri" ;
+            upper(upper);
+
         }
 
 }
