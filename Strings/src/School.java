@@ -1,4 +1,5 @@
 import java.awt.color.ICC_ColorSpace;
+import java.util.ArrayList;
 
 public class School {
     /**
@@ -193,7 +194,13 @@ public class School {
              System.out.println(a);
          }
     }
-
+    public static ArrayList<String> pattern(String S) {
+        ArrayList<String> st = new ArrayList<>();
+        for(int i=S.length();  i>0; i--){
+            st.add(S.substring(0,i));
+        }
+        return st;
+    }
 
 
 
@@ -249,6 +256,10 @@ public class School {
             // different chars count
             String charCountsSt = "ABCD123@#$abcd";
             charsCount(charCountsSt);
+
+            // pattern
+            String sss1 = "hello";
+            pattern(sss1);
 
         }
 
