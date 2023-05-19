@@ -1,5 +1,5 @@
-import java.awt.color.ICC_ColorSpace;
 import java.util.ArrayList;
+import java.util.List;
 
 public class School {
     /**
@@ -194,6 +194,27 @@ public class School {
              System.out.println(a);
          }
     }
+    public static void arrayPrint(String[] arr){
+        for(String a:arr){
+            System.out.println(a);
+        }
+    }
+
+    public static void arrayPrintS(ArrayList<String> arr){
+        for(String a:arr){
+            System.out.println(a);
+        }
+    }
+
+    public static void arrayPrintI(ArrayList<Integer> arr){
+        for(Integer a:arr){
+            System.out.println(a);
+        }
+    }
+
+
+
+
     public static ArrayList<String> pattern(String S) {
         ArrayList<String> st = new ArrayList<>();
         for(int i=S.length();  i>0; i--){
@@ -203,9 +224,101 @@ public class School {
     }
 
 
+     public  static List<String> splitString(String S) {
+        List<String> lt = new ArrayList<>();
+        String alp, dig, spcChar;
+        spcChar = S.replaceAll("[a-zA-Z0-9]","");
+        alp = S.replaceAll("[^A-Za-z]","");
+        dig = S.replaceAll("[^0-9]","");
+       // dig = S.ReplaceAll
+         System.out.println(alp);
+         System.out.println(spcChar);
+         System.out.println(dig);
+         // list to add
+         lt.add(alp);
+         lt.add(dig);
+         lt.add(spcChar);
+         return  lt;
+    }
+
+    // 2nd approach
+    public static List<String> splitString1(String S) {
+        List<String> lt = new ArrayList<>();
+        String alp, dig, spcChar;
+        alp = S.replaceAll("[^a-zA-Z]","");
+        dig = S.replaceAll("[^0-9]", "");
+        // for spcl Characters
+        spcChar = S.replaceAll("[A-Za-z0-9]", "");
+
+        lt.add(alp.length() > 0 ? alp : "-1");
+        lt.add(dig.length() > 0 ? dig : "-1");
+        lt.add(spcChar.length() > 0 ? spcChar : "-1");
+
+        return lt;
+    }
 
 
-        public static void main(String[] args){
+    /**
+     * here we can learn new thing from java.util.regex.matcher/pattern
+     * @param args
+     */
+    public static ArrayList<String> extractIntegerWords(String s)
+    {
+        ArrayList<String> li = new ArrayList<>();
+        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("\\d+");
+        java.util.regex.Matcher matcher = pattern.matcher(s);
+        while(matcher.find()){
+            li.add(matcher.group());
+        }
+        // for string
+        arrayPrintS(li);
+        return li;
+    }
+
+    // Triangle shrinking downwards
+   public static String triDownwards(String S){
+        StringBuilder sb = new StringBuilder(S);
+        System.out.println(sb);
+        for(int i=0; i<S.length()-1; i++){
+            sb.setCharAt(i,'.');
+            System.out.println(sb);
+        }
+        return "";
+    }
+
+    //Triangle shrinking downwards 2nd approach
+    // not working
+    public static String TriDownWards1(String str){
+        System.out.println(str);
+        for(int i=0; i<str.length(); i++){
+           char ch = str.charAt(i);
+
+        }
+        return str;
+    }
+
+
+      public  static String convert(String s) {
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<s.length(); i++){
+            char ch = s.charAt(i);
+            if(Character.isUpperCase(ch)){
+                int index ='Z'-ch+'A';
+                sb.append((char)index);
+            }else{
+                int index ='z'-ch+'a';
+                sb.append((char)index);
+            }
+        }
+        // here convertion to string builder to string
+        // return the string by using override the toString() method
+
+          System.out.println(sb);
+        return sb.toString();
+    }
+
+
+    public static void main(String[] args){
             // 1st problem
             String str = "1010101010";
             binaryCheck(str);
@@ -260,6 +373,21 @@ public class School {
             // pattern
             String sss1 = "hello";
             pattern(sss1);
+
+            String spiltST = "hello123!@#$%";
+            splitString(spiltST);
+
+            //extractIntegerWords
+             String exterInt = "hello1kj2jkj3kjkj2kjk12kjk1234";
+             extractIntegerWords(exterInt);
+
+             // triangle down dot symbol
+             String triDown = "hello";
+              triDownwards(triDown);
+
+              // string convertion starting to reverse index position
+            String cover = "hello";
+             convert(cover);
 
         }
 
