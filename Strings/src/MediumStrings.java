@@ -1,0 +1,301 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Stack;
+
+public class MediumStrings {
+
+
+    /**
+     * Strings medium problems started
+     * let's understand the concepts and String
+     *
+     * @param args
+     */
+    // for printing the values creating the School level object
+    School school = new School();
+
+
+    //  Parenthesis Checker
+    // its not working screenshot is there in resource folder
+    static boolean ispar(String x) {
+        Stack<Character> stack = new Stack();
+        if (x.length() % 2 == 1) return false;
+
+        for (char ch : x.toCharArray()) {
+            if (ch == '(' || ch == '[' || ch == '{') {
+                stack.push(ch);
+            } else if (ch == ')' && !stack.isEmpty() && stack.peek() == '(') {
+                stack.pop();
+            } else if (ch == ']' && !stack.isEmpty() && stack.peek() == '[') {
+                stack.pop();
+            } else if (ch == '}' && !stack.isEmpty() && stack.peek() == '{') {
+                stack.pop();
+            }
+        }
+        return stack.isEmpty();
+    }
+
+
+    static boolean ispar1(String x) {
+        Stack<Character> stack = new Stack<Character>();
+
+        for (char ch : x.toCharArray()) {
+            if (stack.isEmpty() || ch == '{' || ch == '(' || ch == '[') {
+                stack.push(ch);
+            } else {
+                if ((ch == '}' && stack.peek() == '{') ||
+                        (ch == ')' && stack.peek() == '(') ||
+                        (ch == ']' && stack.peek() == '[')) {
+                    stack.pop();
+                } else return false;
+            }        }
+        return stack.isEmpty();
+    }
+
+    // Equal point in a string of brackets
+    public static long countSub(String str) {
+        long lo = 0L;
+        for(int i=0; i<str.length(); i++){
+            if(str.charAt(i) == ')'){
+                lo++;
+            }
+        }
+        return lo;
+    }
+
+
+    public static int shortestDistance(ArrayList<String> s, String word1, String word2) {
+        int count = 0;
+        for(String lo: s){
+            if(lo.equals(word1)){
+                count++;
+
+//                while(!lo.equals(word2)){
+//                    count++;
+//                    if(lo.equals(word2)){
+//                        break;
+//                    }
+//                }
+
+            }else if(!lo.equals(word2)){
+                count++;
+            }
+            if(lo.equals(word2)){
+                System.out.println(count);
+                return count;
+            }
+        }
+        System.out.println(count);
+        return count;
+    }
+
+    public static int shortestDistance1(ArrayList<String> s, String word1, String word2) {
+
+
+        for(int i=0; i<s.size(); i++){
+
+        }
+
+        return 0;
+    }
+
+
+
+    //
+    public  static boolean areKAnagrams(String s1, String s2, int k) {
+        if(s1.length() != s2.length()) return false;
+        char[] c1 = s1.toCharArray();
+        char[] c2 = s2.toCharArray();
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+        int temp =0;
+        for(int i=0; i<s1.length(); i++){
+            if(c1[i] == c2[i]){
+                temp++;
+            }
+        }
+        System.out.println(temp);
+        if(temp > k ) return false;
+        return true;
+    }
+
+    /**
+     *
+     * Given two strings of lowercase alphabets and a value K, your task is to complete the given function which tells if  two strings are K-anagrams of each other or not.
+     *
+     * Two strings are called K-anagrams if both of the below conditions are true.
+     * 1. Both have same number of characters.
+     * 2. Two strings can become anagram by changing at most K characters in a string.
+     *
+     * Example:
+     *
+     * Input:
+     * str1 = "fodr", str2="gork"
+     * k = 2
+     * Output:
+     * 1
+     * Explanation: Can change fd to gk
+     */
+
+    public  static boolean areKAnagrams1(String s1, String s2, int k) {
+        if(s1.length() != s2.length()) return false;
+        int []count=new int[256];
+
+        for(int i=0;i<s1.length();i++) {
+            count[s1.charAt(i)]++;
+        }
+
+        for(int i=0;i<s2.length();i++) {
+            count[s2.charAt(i)]--;
+        }
+        int neg=0;
+        int pos=0;
+        for(int i=0;i<256;i++) {
+            if(count[i]>0)
+                pos+=count[i];
+
+            if(count[i]<0)
+                neg+=count[i];
+        }
+        int val=Math.max(neg,pos);
+        if(val>k)
+            return false;
+
+        return true;
+    }
+
+
+    // Reverse words in a given string
+
+    /**
+     *Given a String S, reverse the string without reversing its individual words. Words are separated by dots.
+     *
+     * Example 1:
+     *
+     * Input:
+     * S = i.like.this.program.very.much
+     * Output: much.very.program.this.like.i
+     * Explanation: After reversing the whole
+     * string(not individual words), the input
+     * string becomes
+     * much.very.program.this.like.i
+     * Example 2:
+     *
+     * Input:
+     * S = pqr.mno
+     * Output: mno.pqr
+     * Explanation: After reversing the whole
+     * string , the input string becomes
+     * mno.pqr
+     *
+     */
+
+   public static String reverseWords(String S)
+    {
+        String[] words = S.split("\\.");
+        String rev = "";
+        for(int i=words.length-1; i>=0; i--){
+            rev+=words[i];
+            if(i>0){
+                rev+=".";
+            }
+
+        }
+        return rev;
+    }
+
+
+    //===========================================================================================
+    // string roatation ===========================================Check if string is rotated by two places
+
+    /**
+     *
+     *Check if string is rotated by two places
+     *
+     * Given two strings a and b. The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places.
+     *
+     * Example 1:
+     *
+     * Input:
+     * a = amazon
+     * b = azonam
+     * Output: 1
+     * Explanation: amazon can be rotated anti
+     * clockwise by two places, which will make
+     * it as azonam.
+     * Example 2:
+     *
+     * Input:
+     * a = geeksforgeeks
+     * b = geeksgeeksfor
+     * Output: 0
+     * Explanation: If we rotate geeksforgeeks by
+     * two place in any direction , we won't get
+     * geeksgeeksfor.
+     *
+     * Your Task:
+     * The task is to complete the function isRotated() which takes two strings as input parameters and checks if given strings can be formed by rotations.
+     * The function returns true if string 1 can be obtained by rotating string 2 by two places, else it returns false.
+     */
+
+
+    public static boolean isRotated(String str1, String str2)
+    {
+        if(str1.length() <=2 || str2.length() <= 2){
+            if(str1.equals(str2)) return true;
+            else return false;
+        }
+
+        if(str1.length() != str2.length()){
+            return false;
+        }
+
+        int n=str1.length();
+        str1 = str1.concat(str1);
+        if(str1.indexOf(str2) == 2 || str1.indexOf(str2) == n-2){
+            return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        //  Parenthesis Checker
+        String pran = "(){}{[]";
+        ispar1(pran);
+
+        // parenthesis equal points
+        String equalPon = "((()))))((";
+        countSub(equalPon);
+
+        // shortestDistance in string
+        ArrayList<String> li = new ArrayList<>();
+        li.add("hello");
+        li.add("this");
+        li.add("is");
+        li.add("yogi");
+        li.add("how");
+        li.add("are");
+        li.add("you");
+        String w1 = "hello";
+        String w2 = "you";
+        shortestDistance(li, w1,w2);
+
+        String s1 = "aaaaa";  //zjwusu wetkfj
+        String s2 = "bbbbb";
+        int key = 1;
+        areKAnagrams(s1,s2,key);
+        areKAnagrams1(s1,s2,key);
+
+        // Reverse words in a given string
+        String revStr = "yogi.joga.darling.siri.i.love.you";
+        reverseWords(revStr);
+
+        //Check if string is rotated by two places
+        String rote = "amazon";
+        String rote2 = "azonma";
+        isRotated(rote,rote2);
+
+
+
+    }
+}
