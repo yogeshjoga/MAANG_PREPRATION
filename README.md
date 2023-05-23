@@ -1,5 +1,7 @@
 # MAANG_PREPRATION
 
+[JAVA COMPLETE CHEAT SHEETS AND GUIDE](https://javaconceptoftheday.com/)
+
 ### Required setup and tools
 
 - [IntelliJ IDEA ](https://www.jetbrains.com/idea/)
