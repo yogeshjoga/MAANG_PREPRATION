@@ -306,6 +306,104 @@ public class MediumStrings {
         return  res;
     }
 
+
+    // Isomorphic Strings
+
+    /**
+     * Given two strings 'str1' and 'str2', check if these two strings are isomorphic to each other.
+     * Two strings str1 and str2 are called isomorphic if there is a one to one mapping possible
+     * for every character of str1 to every character of str2 while preserving the order.
+     *
+     * Note: All occurrences of every character in str1 should map to the same character in str2
+     *
+     * Example 1:
+     *
+     * Input:
+     * str1 = aab
+     * str2 = xxy
+     * Output: 1
+     * Explanation: There are two different
+     * charactersin aab and xxy, i.e a and b
+     * with frequency 2and 1 respectively.
+     * Example 2:
+     *
+     * Input:
+     * str1 = aab
+     * str2 = xyz
+     * Output: 0
+     * Explanation: There are two different
+     * charactersin aab but there are three
+     * different charactersin xyz. So there
+     * won't be one to one mapping between
+     * str1 and str2.
+     *
+     */
+    //Function to check if two strings are isomorphic.
+    // this is my approach, its not working some test cases
+    public static boolean areIsomorphic(String str1,String str2)
+    {
+        int len1 = str1.length();
+        int len2 = str2.length();
+        if(len1 != len2) return false;
+
+        char[] ch1 = str1.toCharArray();
+        char[] ch2 = str2.toCharArray();
+
+        int count1 = 0;
+        int count2 = 0;
+
+        for(int i=0; i<len1-1; i++){
+            if(ch1[i] == ch1[i+1]){
+                count1++;
+            }
+        }
+        for(int i=0; i<len1-1; i++){
+            if(ch2[i] == ch2[i+1]){
+                count2++;
+            }
+        }
+         System.out.println(count1);
+         System.out.println(count2);
+
+        if(count1 == 0 && count2 == 0) return false;
+        else if(count1 == count2) return true;
+        return false;
+    }
+
+    // Hashmap algo used
+    public static boolean areIsomorphic1(String str1,String str2)
+    {
+
+        if(str1.length() != str2.length()) return false;
+
+        HashMap<Character, Character> map = new HashMap<>();
+
+        boolean match = true;
+        for(int i=0; i<str1.length(); i++){
+
+            if(map.containsKey(str1.charAt(i))){
+                if(str2.charAt(i) == map.get(str1.charAt(i))){
+                    continue;
+                }else{
+                    match = false;
+                    break;
+                }
+            }else{
+                if(map.containsValue(str2.charAt(i))){
+                    match = false;
+                    break;
+                }
+                map.put(str1.charAt(i),str2.charAt(i));
+            }
+        }
+        if(!match) return false;
+
+        return true;
+
+    }
+
+
+
     public static void main(String[] args) {
         //  Parenthesis Checker
         String pran = "(){}{[]";
@@ -346,6 +444,13 @@ public class MediumStrings {
         // Roman number to integer
         String romTo = "IV";
         romToInt(romTo);
+
+        //areIsomorphic
+        String areIso1 = "aad";
+        String areIso2 = "xxy";
+        areIsomorphic1(areIso1,areIso2);
+
+
 
     }
 }
