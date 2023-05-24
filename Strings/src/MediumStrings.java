@@ -62,6 +62,11 @@ public class MediumStrings {
     }
 
 
+
+
+
+
+
     public static int shortestDistance(ArrayList<String> s, String word1, String word2) {
         int count = 0;
         for(String lo: s){
@@ -404,6 +409,32 @@ public class MediumStrings {
 
 
 
+
+    //Function to check if a string is Pangram or not.
+    public static boolean checkPangram  (String str) {
+
+
+        boolean[] arr = new boolean[26];
+        Arrays.fill(arr,false);
+        int index;
+
+        for(int i=0; i<str.length(); i++){
+            char c= Character.toLowerCase(str.charAt(i));
+            if(Character.isLetter(c)){
+                index = c - 'a';
+                arr[index] = true;
+            }
+        }
+        for(int i=0; i<=25; i++){
+            if(arr[i] == false){
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+
     public static void main(String[] args) {
         //  Parenthesis Checker
         String pran = "(){}{[]";
@@ -450,6 +481,9 @@ public class MediumStrings {
         String areIso2 = "xxy";
         areIsomorphic1(areIso1,areIso2);
 
+        //checkPangram
+        String stpar ="Bawds jog, flick quartz, vex nymph";
+        checkPangram(stpar); 
 
 
     }
