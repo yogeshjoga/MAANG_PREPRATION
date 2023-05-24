@@ -483,7 +483,7 @@ public class MediumStrings {
 
         //checkPangram
         String stpar ="Bawds jog, flick quartz, vex nymph";
-        checkPangram(stpar); 
+        checkPangram(stpar);
 
 
     }
