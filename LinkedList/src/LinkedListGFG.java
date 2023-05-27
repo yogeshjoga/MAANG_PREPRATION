@@ -43,5 +43,32 @@ public class LinkedListGFG {
         }
         return -1;
     }
+
+
+
+    int getMiddle(Node head)
+    {
+        // ArrayList<Integer> list = new ArrayList<>();
+        // Node temp = head;
+
+        // while(temp != null){
+        //     list.add(temp.data);
+        //   temp= temp.next;
+        // }
+        // int total = list.size();
+        // if(total/2 != 0)
+        //     return total/2;
+
+        // return -1;
+
+
+        Node slow = head;
+        Node fast = head;
+        while (fast !=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow.data;
+    }
 }
-}
+
