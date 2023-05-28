@@ -70,5 +70,21 @@ public class LinkedListGFG {
         }
         return slow.data;
     }
+
+
+
+    // reverse the linked List
+
+    Node reverseList(Node head)
+    {
+        if(head == null || head.next == null) return head;
+        return recursive(null, head);
+    }
+    Node recursive (Node prev, Node cur){
+        if(cur == null) return prev;
+        Node temp = cur.next;
+        cur.next = prev;
+        return recursive(cur, temp);
+    }
 }
 
