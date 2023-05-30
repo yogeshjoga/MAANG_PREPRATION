@@ -100,5 +100,63 @@ public class LinkedListGFG {
         del.data = del.next.data ;
         del.next = del.next.next ;
     }
+
+
+    /***
+     * Given a linked list of 0s, 1s and 2s, sort it.
+     * EasyAccuracy: 60.75%Submissions: 111K+Points: 2
+     * Join the most popular course on DSA. Master Skills & Become Employable by enrolling today!
+     *
+     * Given a linked list of N nodes where nodes can contain values 0s, 1s, and 2s only.
+     * The task is to segregate 0s, 1s, and 2s linked list such that all zeros segregate to head side,
+     * 2s at the end of the linked list, and 1s in the mid of 0s and 2s.
+     *
+     * Example 1:
+     *
+     * Input:
+     * N = 8
+     * value[] = {1,2,2,1,2,0,2,2}
+     * Output: 0 1 1 2 2 2 2 2
+     * Explanation: All the 0s are segregated
+     * to the left end of the linked list,
+     * 2s to the right end of the list, and
+     * 1s in between.
+     * Example 2:
+     *
+     * Input:
+     * N = 4
+     * value[] = {2,2,0,1}
+     * Output: 0 1 2 2
+     * Explanation: After arranging all the
+     * 0s,1s and 2s in the given format,
+     * the output will be 0 1 2 2.
+     * @param head
+     * @return
+     */
+    static Node segregate(Node head)
+    {
+        if(head == null || head.next == null) return head;
+
+        int[] frequency = new int[3];
+
+        Node currNode = head;
+
+        while(currNode != null){
+            frequency [currNode.data]++;
+            currNode = currNode.next;
+        }
+
+        int j = 0;
+        currNode =head;
+        for(int i= 0; i< 3; i++){
+            while(frequency [i] > 0){
+                currNode.data =i;
+                j++;
+                frequency[i]--;
+                currNode = currNode.next;
+            }
+        }
+        return head;
+    }
 }
 
