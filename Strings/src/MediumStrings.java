@@ -433,6 +433,17 @@ public class MediumStrings {
         return true;
     }
 
+    //Divisible by 7
+    public static int isDivisable(String s){
+        int sum = 0;
+        for(int i=0; i<=s.length()-1; i++){
+            sum = ((sum * 10)+s.charAt(i) -'0')%7;
+        }
+        System.out.println(sum);
+        return sum == 0 ? 1 : 0;
+    }
+
+
 
 
     public static void main(String[] args) {
@@ -484,6 +495,9 @@ public class MediumStrings {
         //checkPangram
         String stpar ="Bawds jog, flick quartz, vex nymph";
         checkPangram(stpar);
+
+        //is divisable into 7
+        isDivisable("1234557890");
 
 
     }
