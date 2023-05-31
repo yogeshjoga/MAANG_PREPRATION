@@ -11,6 +11,7 @@
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/home)
 - [LeetCode](https://leetcode.com/)
 - [GitHub](https://github.com/)
+- [JAVA 8](https://www.digitalocean.com/community/tutorials/java-8-features-with-examples)
 
 ![Custom badge](https://img.shields.io/badge/Repo-Started-brightgreen)   ![Custom badge](https://img.shields.io/badge/MAANG-Prepration-ff69b4)
 ![Custom badge](https://img.shields.io/badge/ARRAYS-Started-green)      ![Custom badge](https://img.shields.io/badge/LinkedList-NotYet-yellow)
