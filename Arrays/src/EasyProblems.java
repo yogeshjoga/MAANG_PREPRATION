@@ -5,7 +5,7 @@ public class EasyProblems {
      * here started easy problems
      * lets go thorough it
      * learns easy and basic datastructures and learn very fast
-     * @param args
+     * @param len
      */
 
 
